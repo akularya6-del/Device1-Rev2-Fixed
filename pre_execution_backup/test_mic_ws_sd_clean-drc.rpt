@@ -1,0 +1,58 @@
+** Drc report for test_mic_ws_sd_clean.kicad_pcb **
+** Created on 2026-09-20T17:22:15 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 9 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(0.8000 mm, 13.3000 mm): Track [/MIC_WS] on B.Cu, length 13.1000 mm
+    @(3.2000 mm, 15.0000 mm): Track [/MIC_SD] on B.Cu, length 2.7500 mm
+[shorting_items]: Items shorting two nets (nets /BATT_NEG and /MIC_WS)
+    Local override; error
+    @(2.0000 mm, 26.8000 mm): Pad 1 [/BATT_NEG] of TP_BATT_N on B.Cu
+    @(0.8000 mm, 26.4000 mm): Track [/MIC_WS] on B.Cu, length 5.8000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+    Local override; error
+    @(0.4500 mm, 26.8000 mm): Track [/MIC_SD] on B.Cu, length 7.0500 mm
+    @(6.6000 mm, 26.4000 mm): Via [/MIC_WS] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+    Local override; error
+    @(2.0000 mm, 26.8000 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+    @(0.8000 mm, 26.4000 mm): Track [/MIC_WS] on B.Cu, length 5.8000 mm
+[shorting_items]: Items shorting two nets (nets /MIC_SD and /BATT_NEG)
+    Local override; error
+    @(0.4500 mm, 26.8000 mm): Track [/MIC_SD] on B.Cu, length 7.0500 mm
+    @(2.0000 mm, 26.8000 mm): Pad 1 [/BATT_NEG] of TP_BATT_N on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+    Local override; error
+    @(2.2000 mm, 15.7500 mm): Pad 1 [/SWDIO] of TP_SWDIO on B.Cu
+    @(3.2000 mm, 15.0000 mm): Track [/MIC_SD] on B.Cu, length 2.7500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+    Local override; error
+    @(0.8000 mm, 13.3000 mm): Track [/MIC_WS] on B.Cu, length 13.1000 mm
+    @(1.2000 mm, 24.2000 mm): Via [/GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(0.8000 mm, 26.4000 mm): Track [/MIC_WS] on B.Cu, length 5.8000 mm
+    @(2.0000 mm, 26.8000 mm): Pad 1 [/BATT_NEG] of TP_BATT_N on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(0.4500 mm, 26.8000 mm): Track [/MIC_SD] on B.Cu, length 7.0500 mm
+    @(2.0000 mm, 26.8000 mm): Pad 1 [/BATT_NEG] of TP_BATT_N on B.Cu
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.2500 mm, 9.5625 mm): Pad 17 [/MIC_SCK] of U1 on F.Cu
+    @(8.4000 mm, 27.9580 mm): Pad 4 [/MIC_SCK] of MK1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

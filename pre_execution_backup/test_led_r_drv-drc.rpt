@@ -1,0 +1,78 @@
+** Drc report for test_led_r_drv.kicad_pcb **
+** Created on 2026-09-20T16:59:51 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 11 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+    Local override; error
+    @(12.7200 mm, 10.7500 mm): Track [/3V3] on F.Cu, length 1.7825 mm
+    @(11.5000 mm, 10.2500 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1671 mm)
+    Local override; error
+    @(10.2000 mm, 18.0000 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+    @(11.8000 mm, 17.8000 mm): Track [/CHG_STAT] on B.Cu, length 1.9698 mm
+[shorting_items]: Items shorting two nets (nets /CHG_STAT and /LED_R_DRV)
+    Local override; error
+    @(10.8625 mm, 19.2500 mm): Pad 1 [/CHG_STAT] of U2 on F.Cu
+    @(10.3500 mm, 18.5000 mm): Track [/LED_R_DRV] on F.Cu, length 8.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(10.0000 mm, 19.2500 mm): Track [/CHG_STAT] on F.Cu, length 0.8630 mm
+    @(10.3500 mm, 18.5000 mm): Track [/LED_R_DRV] on F.Cu, length 8.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(9.8000 mm, 25.1500 mm): Track [/SYS_PWR] on F.Cu, length 1.2620 mm
+    @(10.3500 mm, 18.5000 mm): Track [/LED_R_DRV] on F.Cu, length 8.0000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)
+    Local override; error
+    @(10.0000 mm, 19.2500 mm): Via [/CHG_STAT] on F.Cu - B.Cu
+    @(10.3500 mm, 18.5000 mm): Track [/LED_R_DRV] on F.Cu, length 8.0000 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(10.3500 mm, 18.5000 mm): Track [/LED_R_DRV] on F.Cu, length 8.0000 mm
+    @(10.8625 mm, 19.2500 mm): Pad 1 [/CHG_STAT] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(10.3500 mm, 18.5000 mm): Track [/LED_R_DRV] on F.Cu, length 8.0000 mm
+    @(10.8625 mm, 20.2000 mm): Pad 2 [/GND] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(10.3500 mm, 18.5000 mm): Track [/LED_R_DRV] on F.Cu, length 8.0000 mm
+    @(10.8625 mm, 21.1500 mm): Pad 3 [/VBAT_PROT] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(10.3500 mm, 18.5000 mm): Track [/LED_R_DRV] on F.Cu, length 8.0000 mm
+    @(11.0625 mm, 23.2500 mm): Pad 1 [/VBUS_5V] of Q2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(10.3500 mm, 18.5000 mm): Track [/LED_R_DRV] on F.Cu, length 8.0000 mm
+    @(11.0625 mm, 25.1500 mm): Pad 2 [/SYS_PWR] of Q2 on F.Cu
+
+** Found 4 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 13.7500 mm): Pad 32 [/MIC_WS] of U1 on F.Cu
+    @(6.6000 mm, 27.1360 mm): Pad 1 [/MIC_WS] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.2500 mm, 9.5625 mm): Pad 17 [/MIC_SCK] of U1 on F.Cu
+    @(8.4000 mm, 27.9580 mm): Pad 4 [/MIC_SCK] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 14.2500 mm): Pad 33 [/MIC_SD] of U1 on F.Cu
+    @(7.5000 mm, 27.1360 mm): Pad 6 [/MIC_SD] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9.9900 mm, 29.2000 mm): Pad 1 [/LED_B_DRV] of R7 on F.Cu
+    @(10.2500 mm, 9.5625 mm): Pad 13 [/LED_B_DRV] of U1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

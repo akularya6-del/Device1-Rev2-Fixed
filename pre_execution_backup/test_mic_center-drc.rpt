@@ -1,0 +1,50 @@
+** Drc report for test_mic_center.kicad_pcb **
+** Created on 2026-09-20T17:23:41 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 7 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(6.0000 mm, 15.0000 mm): Track [/MIC_SD] on B.Cu, length 11.2000 mm
+    @(5.2000 mm, 26.5000 mm): Track [/MIC_WS] on B.Cu, length 1.4000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(5.2000 mm, 13.5000 mm): Track [/MIC_WS] on B.Cu, length 13.0000 mm
+    @(4.7500 mm, 17.4000 mm): Via [/3V3] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets /MIC_WS and /MIC_SD)
+    Local override; error
+    @(6.6000 mm, 26.5000 mm): Via [/MIC_WS] on F.Cu - B.Cu
+    @(6.0000 mm, 26.2000 mm): Track [/MIC_SD] on B.Cu, length 1.5000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+    Local override; error
+    @(6.0000 mm, 15.0000 mm): Track [/MIC_SD] on B.Cu, length 11.2000 mm
+    @(5.6000 mm, 19.8000 mm): Via [/GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+    Local override; error
+    @(1.8630 mm, 25.8000 mm): Track [/GATE_OC] on F.Cu, length 5.6370 mm
+    @(7.5000 mm, 26.2000 mm): Via [/MIC_SD] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+    Local override; error
+    @(7.5000 mm, 26.2000 mm): Via [/MIC_SD] on F.Cu - B.Cu
+    @(7.5000 mm, 25.8000 mm): Track [/GATE_OC] on F.Cu, length 1.6000 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.2000 mm, 13.5000 mm): Track [/MIC_WS] on B.Cu, length 13.0000 mm
+    @(4.8000 mm, 24.2000 mm): Pad 1 [/BATT_POS] of TP_BATT_P on B.Cu
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.2500 mm, 9.5625 mm): Pad 17 [/MIC_SCK] of U1 on F.Cu
+    @(8.4000 mm, 27.9580 mm): Pad 4 [/MIC_SCK] of MK1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

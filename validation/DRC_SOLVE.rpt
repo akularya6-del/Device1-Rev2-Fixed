@@ -1,0 +1,156 @@
+** Drc report for test_solve.kicad_pcb **
+** Created on 2026-09-20T21:22:44 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 34 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0350 mm)
+    Local override; error
+    @(5.2500 mm, 9.5625 mm): Track [/RFO_HP] on F.Cu, length 2.2775 mm
+    @(5.7500 mm, 7.7850 mm): Pad 1 [/RFI_N] of C23 on F.Cu
+[shorting_items]: Items shorting two nets (nets /GND and /TP_RF)
+    Local override; error
+    @(8.0000 mm, 6.9900 mm): Via [/GND] on F.Cu - B.Cu
+    @(7.3100 mm, 7.2000 mm): Track [/TP_RF] on B.Cu, length 2.4900 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1887 mm)
+    Local override; error
+    @(5.2500 mm, 6.3150 mm): Track [/RF_50OHM] on F.Cu, length 1.0050 mm
+    @(5.7500 mm, 6.8150 mm): Pad 2 [/GND] of C23 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0900 mm)
+    Local override; error
+    @(4.5000 mm, 9.7500 mm): Track [/VR_PA] on F.Cu, length 1.5500 mm
+    @(4.9850 mm, 8.5000 mm): Pad 2 [/RFO_HP] of L2 on F.Cu
+[shorting_items]: Items shorting two nets (nets /VR_PA and /RFO_HP)
+    Local override; error
+    @(4.5000 mm, 8.2000 mm): Via [/VR_PA] on F.Cu - B.Cu
+    @(4.9850 mm, 8.5000 mm): Pad 2 [/RFO_HP] of L2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1050 mm)
+    Local override; error
+    @(6.7500 mm, 9.5625 mm): Track [/RFI_P] on F.Cu, length 1.0625 mm
+    @(6.2500 mm, 8.9850 mm): Pad 1 [/RFI_N] of L3 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0900 mm)
+    Local override; error
+    @(4.0150 mm, 8.5000 mm): Track [/VR_PA] on F.Cu, length 0.4850 mm
+    @(4.9850 mm, 8.5000 mm): Pad 2 [/RFO_HP] of L2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1152 mm)
+    Local override; error
+    @(6.7500 mm, 8.5000 mm): Track [/RFI_P] on F.Cu, length 0.6966 mm
+    @(5.7500 mm, 7.7850 mm): Pad 1 [/RFI_N] of C23 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1050 mm)
+    Local override; error
+    @(6.2500 mm, 8.0150 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+    @(5.7500 mm, 7.7850 mm): Track [/RFI_N] on F.Cu, length 0.7000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1050 mm)
+    Local override; error
+    @(6.2500 mm, 6.1350 mm): Track [/RFI_P] on F.Cu, length 1.8800 mm
+    @(5.7500 mm, 7.7850 mm): Pad 1 [/RFI_N] of C23 on F.Cu
+[shorting_items]: Items shorting two nets (nets /RFO_HP and /RFI_N)
+    Local override; error
+    @(5.2500 mm, 7.2850 mm): Pad 1 [/RFO_HP] of L1 on F.Cu
+    @(5.7500 mm, 7.7850 mm): Pad 1 [/RFI_N] of C23 on F.Cu
+[shorting_items]: Items shorting two nets (nets /RFO_HP and /GND)
+    Local override; error
+    @(5.2500 mm, 7.2850 mm): Pad 1 [/RFO_HP] of L1 on F.Cu
+    @(5.7500 mm, 6.8150 mm): Pad 2 [/GND] of C23 on F.Cu
+[shorting_items]: Items shorting two nets (nets /RF_50OHM and /GND)
+    Local override; error
+    @(5.2500 mm, 6.3150 mm): Pad 2 [/RF_50OHM] of L1 on F.Cu
+    @(5.7500 mm, 6.8150 mm): Pad 2 [/GND] of C23 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1600 mm)
+    Local override; error
+    @(6.2900 mm, 5.2000 mm): Pad 1 [/RF_50OHM] of R_TEST on F.Cu
+    @(6.3850 mm, 6.0000 mm): Pad 2 [/RFI_P] of C22 on F.Cu
+[shorting_items]: Items shorting two nets (nets /RFI_P and /RFI_N)
+    Local override; error
+    @(6.2500 mm, 8.0150 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+    @(5.7500 mm, 7.7850 mm): Pad 1 [/RFI_N] of C23 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0883 mm)
+    Rule: board setup constraints hole; error
+    @(4.9850 mm, 8.5000 mm): Pad 2 [/RFO_HP] of L2 on F.Cu
+    @(4.5000 mm, 8.2000 mm): Via [/VR_PA] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0606 mm)
+    Local override; error
+    @(6.7500 mm, 9.5625 mm): Pad 20 [/RFI_P] of U1 on F.Cu
+    @(6.2500 mm, 8.9850 mm): Pad 1 [/RFI_N] of L3 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0606 mm)
+    Local override; error
+    @(5.7500 mm, 9.5625 mm): Pad 22 [<no net>] of U1 on F.Cu
+    @(6.2500 mm, 8.9850 mm): Pad 1 [/RFI_N] of L3 on F.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(5.2500 mm, 6.8000 mm): Footprint L1
+    @(5.9000 mm, 6.0000 mm): Footprint C22
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(5.2500 mm, 6.8000 mm): Footprint L1
+    @(5.7500 mm, 7.3000 mm): Footprint C23
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(5.2500 mm, 4.8000 mm): Footprint R_ANT
+    @(5.9000 mm, 6.0000 mm): Footprint C22
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(4.5000 mm, 8.5000 mm): Footprint L2
+    @(5.7500 mm, 7.3000 mm): Footprint C23
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(4.5000 mm, 8.5000 mm): Footprint L2
+    @(7.5000 mm, 13.0000 mm): Footprint U1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(6.2500 mm, 8.5000 mm): Footprint L3
+    @(5.7500 mm, 7.3000 mm): Footprint C23
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(6.2500 mm, 8.5000 mm): Footprint L3
+    @(7.5000 mm, 13.0000 mm): Footprint U1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(5.9000 mm, 6.0000 mm): Footprint C22
+    @(5.7500 mm, 7.3000 mm): Footprint C23
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(5.9000 mm, 6.0000 mm): Footprint C22
+    @(6.8000 mm, 5.2000 mm): Footprint R_TEST
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(4.5000 mm, 8.2000 mm): Via [/VR_PA] on F.Cu - B.Cu
+    @(4.9850 mm, 8.5000 mm): Pad 2 [/RFO_HP] of L2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.2500 mm, 7.2850 mm): Pad 1 [/RFO_HP] of L1 on F.Cu
+    @(5.7500 mm, 7.7850 mm): Pad 1 [/RFI_N] of C23 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.2500 mm, 7.2850 mm): Pad 1 [/RFO_HP] of L1 on F.Cu
+    @(5.7500 mm, 6.8150 mm): Pad 2 [/GND] of C23 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.2500 mm, 6.3150 mm): Pad 2 [/RF_50OHM] of L1 on F.Cu
+    @(5.7500 mm, 6.8150 mm): Pad 2 [/GND] of C23 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(6.2500 mm, 8.0150 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+    @(5.7500 mm, 7.7850 mm): Pad 1 [/RFI_N] of C23 on F.Cu
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(5.7500 mm, 7.3000 mm): Footprint C23
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(5.9000 mm, 6.0000 mm): Footprint C22
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5.7500 mm, 6.8150 mm): Pad 2 [/GND] of C23 on F.Cu
+    @(0.2000 mm, 4.3000 mm): Zone [/GND] on F.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

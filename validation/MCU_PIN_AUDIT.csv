@@ -1,0 +1,50 @@
+Pin Number,Pin Name,Schematic Net,Firmware Macro,Alternate Function,Electrical Type,Audit Status
+1,PB3,NC,None,None,GPIO/Hi-Z,YES
+2,PB4,NC,None,None,GPIO/Hi-Z,YES
+3,PB5,NC,None,None,GPIO/Hi-Z,YES
+4,PB6,NC,None,None,GPIO/Hi-Z,YES
+5,PB7,NC,None,None,GPIO/Hi-Z,YES
+6,PB8,NC,None,None,GPIO/Hi-Z,YES
+7,PA0,CHG_STAT,CHG_STAT_PIN,None,Input/PullUp,YES
+8,PA1,NC,None,None,GPIO/Hi-Z,YES
+9,PA2,NC,None,None,GPIO/Hi-Z,YES
+10,PA3,NC,None,None,GPIO/Hi-Z,YES
+11,VDD,3V3,None,Power,Power In,YES
+12,PA4,LED_R_DRV,LED_R_PIN,None,Output PP,YES
+13,PA5,LED_B_DRV,LED_B_PIN,None,Output PP,YES
+14,PA6,NC,None,None,GPIO/Hi-Z,YES
+15,PA7,NC,None,None,GPIO/Hi-Z,YES
+16,PA8,NC,None,None,GPIO/Hi-Z,YES
+17,PA9,MIC_SCK,I2S2_SCK_PIN,AF5 (I2S2_CK),Output AF,YES
+18,NRST,NRST,None,Reset,Reset Input,YES
+19,PH3,BOOT0,None,BOOT0,Input/PD,YES
+20,RFI_P,NC,SUBGHZ,RF Input,RF Balanced,YES
+21,RFI_N,NC,SUBGHZ,RF Input,RF Balanced,YES
+22,RFO_LP,NC,None,None,RF Out (LP),YES
+23,RFO_HP,RFO_HP,SUBGHZ,RF Output,RF Out (+14dBm),YES
+24,VR_PA,VR_PA,None,Power,Analog Decoup,YES
+25,VDDPA,3V3,None,Power,Power In,YES
+26,OSC_IN,OSC_IN,HSE_VALUE,HSE Crystal,Osc In (32MHz),YES
+27,OSC_OUT,OSC_OUT,HSE_VALUE,HSE Crystal,Osc Out (32MHz),YES
+28,VDDRF,3V3,None,Power,Power In,YES
+29,VDDRF1V55,VDDRF1V55,None,Power,Analog Decoup,YES
+30,PB0,NC,None,None,GPIO/Hi-Z,YES
+31,PB2,NC,None,None,GPIO/Hi-Z,YES
+32,PB12,MIC_WS,I2S2_WS_PIN,AF5 (I2S2_WS),Output AF,YES
+33,PA10,MIC_SD,I2S2_SD_PIN,AF5 (I2S2_SD),Input AF,YES
+34,PA11,NC,None,None,GPIO/Hi-Z,YES
+35,PA12,NC,None,None,GPIO/Hi-Z,YES
+36,PA13,SWDIO,SWDIO_PIN,AF0 (SWDIO),Bi-dir Debug,YES
+37,VBAT,3V3,None,Power,Power In,YES
+38,PC13,NC,None,None,GPIO/Hi-Z,YES
+39,PC14,NC,None,None,GPIO/Hi-Z,YES
+40,PC15,NC,None,None,GPIO/Hi-Z,YES
+41,VDDA,3V3,None,Power,Power In,YES
+42,PA14,SWCLK,SWCLK_PIN,AF0 (SWCLK),Input Debug,YES
+43,PA15,NC,None,None,GPIO/Hi-Z,YES
+44,VDD,3V3,None,Power,Power In,YES
+45,VFBSMPS,3V3,None,SMPS,Power In,YES
+46,VDDSMPS,3V3,None,SMPS,Power In,YES
+47,VLXSMPS,VLXSMPS,None,SMPS,Analog Decoup,YES
+48,VSSSMPS,GND,None,Power,Power Ground,YES
+49,VSS (EP),GND,None,Power,Thermal Pad,YES

@@ -1,0 +1,82 @@
+** Drc report for test_solve.kicad_pcb **
+** Created on 2026-09-20T21:31:54 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 15 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0700 mm)
+    Local override; error
+    @(6.1500 mm, 6.0650 mm): Pad 2 [/GND] of C23 on F.Cu
+    @(6.6000 mm, 5.6000 mm): Track [/RF_50OHM] on F.Cu, length 0.3100 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1727 mm)
+    Local override; error
+    @(6.1500 mm, 6.0650 mm): Pad 2 [/GND] of C23 on F.Cu
+    @(7.0500 mm, 6.0650 mm): Track [/RF_50OHM] on F.Cu, length 0.6471 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0700 mm)
+    Local override; error
+    @(6.1500 mm, 6.0650 mm): Pad 2 [/GND] of C23 on F.Cu
+    @(6.2900 mm, 5.6000 mm): Track [/RF_50OHM] on F.Cu, length 0.4000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0599 mm)
+    Local override; error
+    @(6.4850 mm, 8.2500 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+    @(6.2500 mm, 8.7000 mm): Track [/RFI_N] on F.Cu, length 0.8618 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0900 mm)
+    Local override; error
+    @(4.6850 mm, 8.2500 mm): Track [/RFO_HP] on F.Cu, length 0.5650 mm
+    @(6.2500 mm, 8.7000 mm): Track [/RFI_N] on F.Cu, length 0.8618 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0685 mm)
+    Local override; error
+    @(6.4850 mm, 8.2500 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+    @(6.2500 mm, 9.5625 mm): Track [/RFI_N] on F.Cu, length 0.8625 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0450 mm)
+    Local override; error
+    @(6.2500 mm, 8.7000 mm): Track [/RFI_N] on F.Cu, length 0.8618 mm
+    @(5.2500 mm, 9.5625 mm): Track [/RFO_HP] on F.Cu, length 2.2775 mm
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(5.2500 mm, 6.8000 mm): Footprint L1
+    @(6.1500 mm, 6.5500 mm): Footprint C23
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(5.2500 mm, 4.8000 mm): Footprint R_ANT
+    @(6.1500 mm, 6.5500 mm): Footprint C23
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(4.2000 mm, 8.2500 mm): Footprint L2
+    @(6.0000 mm, 8.2500 mm): Footprint L3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(7.0500 mm, 6.5500 mm): Footprint C22
+    @(6.1500 mm, 6.5500 mm): Footprint C23
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(7.0500 mm, 6.5500 mm): Footprint C22
+    @(6.8000 mm, 5.2000 mm): Footprint R_TEST
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(6.1500 mm, 6.5500 mm): Footprint C23
+    @(6.8000 mm, 5.2000 mm): Footprint R_TEST
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(4.6850 mm, 8.2500 mm): Track [/RFO_HP] on F.Cu, length 0.5650 mm
+    @(5.5150 mm, 8.2500 mm): Pad 1 [/RFI_N] of L3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.2500 mm, 9.5625 mm): Track [/RFO_HP] on F.Cu, length 2.2775 mm
+    @(5.5150 mm, 8.2500 mm): Pad 1 [/RFI_N] of L3 on F.Cu
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.2000 mm, 4.3000 mm): Zone [/GND] on F.Cu, priority 0
+    @(6.1500 mm, 6.0650 mm): Pad 2 [/GND] of C23 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

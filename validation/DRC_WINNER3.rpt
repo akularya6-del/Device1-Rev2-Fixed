@@ -1,0 +1,65 @@
+** Drc report for test_solve.kicad_pcb **
+** Created on 2026-09-20T21:30:28 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 11 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(8.4000 mm, 8.7000 mm): Track [/MIC_SCK] on B.Cu, length 3.0000 mm
+    @(5.6000 mm, 9.1500 mm): Track [/BOOT0] on B.Cu, length 1.1400 mm
+[shorting_items]: Items shorting two nets (nets /NRST and /GND)
+    Local override; error
+    @(9.2000 mm, 4.5000 mm): Track [/NRST] on F.Cu, length 0.6000 mm
+    @(9.2000 mm, 4.2000 mm): Via [/GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets /GND and /NRST)
+    Local override; error
+    @(9.2000 mm, 4.2000 mm): Via [/GND] on F.Cu - B.Cu
+    @(9.8000 mm, 4.5000 mm): Pad 1 [/NRST] of TP_NRST on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1516 mm)
+    Local override; error
+    @(7.7500 mm, 9.5625 mm): Pad 18 [/NRST] of U1 on F.Cu
+    @(7.2500 mm, 9.1500 mm): Via [/BOOT0] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(8.4000 mm, 8.7000 mm): Track [/MIC_SCK] on B.Cu, length 3.0000 mm
+    @(7.2500 mm, 9.1500 mm): Via [/BOOT0] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)
+    Local override; error
+    @(7.2500 mm, 9.1500 mm): Track [/BOOT0] on B.Cu, length 1.6500 mm
+    @(5.4000 mm, 8.7000 mm): Track [/MIC_SCK] on B.Cu, length 6.8000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+    Local override; error
+    @(9.2000 mm, 4.5000 mm): Track [/NRST] on F.Cu, length 0.6000 mm
+    @(8.6850 mm, 4.2000 mm): Track [/GND] on F.Cu, length 0.5150 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+    Local override; error
+    @(9.2000 mm, 7.9800 mm): Track [/NRST] on F.Cu, length 3.4800 mm
+    @(8.6850 mm, 4.2000 mm): Track [/GND] on F.Cu, length 0.5150 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0458 mm)
+    Rule: board setup constraints hole; error
+    @(9.8000 mm, 4.5000 mm): Pad 1 [/NRST] of TP_NRST on B.Cu
+    @(9.2000 mm, 4.2000 mm): Via [/GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(9.2000 mm, 4.2000 mm): Via [/GND] on F.Cu - B.Cu
+    @(9.8000 mm, 4.5000 mm): Pad 1 [/NRST] of TP_NRST on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(4.5000 mm, 9.7500 mm): Track [/VR_PA] on F.Cu, length 2.2888 mm
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.2000 mm, 4.3000 mm): Zone [/GND] on In1.Cu, priority 0
+    @(0.2000 mm, 4.3000 mm): Zone [/GND] on F.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

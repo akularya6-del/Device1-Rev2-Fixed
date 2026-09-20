@@ -1,0 +1,19 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Compiler intermediate objects
+*.o
+*.d
+
+# Python cache
+__pycache__/
+*.pyc
+
+# KiCad local history
+.history/
+*/.history/
+
+# Local scratch logs
+validation/scratch_reports/
+

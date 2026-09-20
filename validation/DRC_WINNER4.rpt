@@ -1,0 +1,72 @@
+** Drc report for test_solve.kicad_pcb **
+** Created on 2026-09-20T21:31:14 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 11 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1368 mm)
+    Local override; error
+    @(9.2000 mm, 7.9800 mm): Track [/NRST] on F.Cu, length 3.4800 mm
+    @(8.7100 mm, 4.2000 mm): Pad 2 [/GND] of R1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1368 mm)
+    Local override; error
+    @(9.2000 mm, 4.5000 mm): Track [/NRST] on F.Cu, length 0.6000 mm
+    @(8.7100 mm, 4.2000 mm): Pad 2 [/GND] of R1 on F.Cu
+[shorting_items]: Items shorting two nets (nets /RFI_P and /BOOT0)
+    Local override; error
+    @(6.9350 mm, 8.3000 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+    @(7.2500 mm, 8.0100 mm): Via [/BOOT0] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1282 mm)
+    Local override; error
+    @(6.7500 mm, 8.5000 mm): Track [/RFI_P] on F.Cu, length 0.2724 mm
+    @(7.2500 mm, 8.0100 mm): Via [/BOOT0] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets /RFI_P and /BOOT0)
+    Local override; error
+    @(6.9350 mm, 8.3000 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+    @(7.2500 mm, 9.5625 mm): Track [/BOOT0] on F.Cu, length 1.5525 mm
+[shorting_items]: Items shorting two nets (nets /RFI_P and /BOOT0)
+    Local override; error
+    @(6.9350 mm, 8.3000 mm): Track [/RFI_P] on F.Cu, length 0.8598 mm
+    @(7.2500 mm, 8.0100 mm): Via [/BOOT0] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(6.9350 mm, 8.3000 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+    @(7.2500 mm, 8.0100 mm): Via [/BOOT0] on F.Cu - B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(7.2500 mm, 8.0100 mm): Via [/BOOT0] on F.Cu - B.Cu
+    @(6.9350 mm, 8.3000 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(7.2500 mm, 9.5625 mm): Track [/BOOT0] on F.Cu, length 1.5525 mm
+    @(6.9350 mm, 8.3000 mm): Pad 2 [/RFI_P] of L3 on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(4.5000 mm, 9.7500 mm): Track [/VR_PA] on F.Cu, length 2.2888 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(7.2500 mm, 4.2000 mm): Track [/BOOT0] on F.Cu, length 0.2000 mm
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.2000 mm, 4.3000 mm): Zone [/GND] on F.Cu, priority 0
+    @(0.2000 mm, 4.3000 mm): Zone [/GND] on F.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.7100 mm, 4.2000 mm): Pad 2 [/GND] of R1 on F.Cu
+    @(0.2000 mm, 4.3000 mm): Zone [/GND] on F.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(7.2500 mm, 4.2000 mm): Track [/BOOT0] on F.Cu, length 0.2000 mm
+    @(5.6000 mm, 4.0000 mm): Track [/BOOT0] on B.Cu, length 1.6500 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

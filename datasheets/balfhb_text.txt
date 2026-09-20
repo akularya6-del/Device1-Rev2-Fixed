@@ -1,0 +1,1179 @@
+BALFHB-WL-02D3
+Datasheet
+
+50 Ω nominal input / conjugate matched balun to QFN-4L STM32WL in high
+power mode, 862-928 MHz with integrated harmonic filter
+Features
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+QFN STM32WL sub-GHz wireless microcontrollers impedance matched balun
+and Tx harmonics filter
+Optimized for QFN STM32WL sub-GHz wireless microcontrollers in high
+power mode and dedicated to 4-layer PCB
+50 Ω nominal input / conjugate matched balun to QFN STM32WL
+50 Ω nominal impedance on antenna side Tx and Rx
+Deep Tx rejection harmonic filter
+Low insertion loss
+Small footprint
+Low profile ≤ 630 μm after reflow
+High RF performance
+RF BOM and area reduction
+ECOPACK2 compliant component
+
+Applications
+•
+•
+
+STM32WL sub-GHz wireless microcontrollers
+LPWAN-compliant radio solution, enabling the following modulations: LoRa®,
+(G)FSK, (G)MSK, and BPSK
+
+Description
+
+Product status
+BALFHB-WL-02D3
+
+STMicroelectronics BALFHB-WL-02D3 is an ultra-miniature balun. This device
+integrates a matching network, balun, and harmonics filter. Matching impedance has
+been customized for the STM32WL sub-GHz wireless microcontrollers.
+It is using STMicroelectronics IPD technology on a nonconductive glass substrate,
+which optimizes RF performances.
+
+DS14091 - Rev 2 - December 2022
+For further information contact your local STMicroelectronics sales office.
+
+www.st.com
+
+BALFHB-WL-02D3
+Characteristics
+
+1
+
+Characteristics
+Table 1. Absolute maximum ratings (Tamb = 25 °C)
+Symbol Parameter
+
+Value
+
+Unit
+dBm
+
+PIN
+
+Input power RFIN
+
+27
+
+VESD
+
+ESD ratings human body model (JESD22-A114), all I/O one at a time while others connected to
+GND
+
+2000
+
+ESD ratings machine model, all I/O
+
+200
+
+TOP
+
+Operating temperature
+
+V
+
+-40 to +105
+
+°C
+
+Table 2. Impedances (Tamb = 25 °C)
+Parameter
+
+Symbol
+
+Value
+Min.
+
+Typ.
+
+Max.
+
+ZRX
+
+Nominal differential RX balun impedance
+
+-
+
+Matched to STM32WL
+
+-
+
+ZTX
+
+Nominal TX filter impedance
+
+-
+
+Matched to STM32WL
+
+-
+
+ZRX-ANT
+
+Nominal Rx balun antenna impedance
+
+-
+
+50
+
+-
+
+ZTX-ANT
+
+Nominal Tx filter antenna impedance
+
+-
+
+50
+
+-
+
+Unit
+
+Ω
+
+Table 3. Electrical characteristics and RF performances (Tamb = 25 °C)
+Symbol
+f
+
+Parameter
+Frequency range
+
+Value
+Min. Typ. Max.
+862
+
+915
+
+Unit
+
+928
+
+MHz
+
+ILRX
+
+Rx balun insertion loss differential mode |SDS| without
+mismatch loss
+
+Typical value given at 915 MHz
+
+1.10 1.35
+
+dB
+
+ILTX
+
+HP Tx filter insertion loss |S21| without mismatch loss
+
+Typical value given at 915 MHz
+
+0.65 0.85
+
+dB
+
+RLRX-ANT
+
+Rx balun input return loss differential mode |SDD| on
+antenna
+
+Typical value given at 915 MHz
+
+14
+
+19
+
+dB
+
+Typical value given at 915 MHz
+
+20
+
+24
+
+dB
+
+RLTX-ANT Tx filter output return loss |S11| on antenna
+ɸimb
+
+RX balun phase imbalance
+
+-1.9
+
+1.9
+
+°
+
+Aimb
+
+RX balun amplitude imbalance
+
+-0.4
+
+0.4
+
+dB
+
+AttTX
+
+DS14091 - Rev 2
+
+Test condition
+
+Tx filter harmonic rejection levels |S21|
+
+Attenuation at 2fo
+
+26
+
+31
+
+Attenuation at 3fo
+
+49
+
+62
+
+Attenuation at 4fo
+
+39
+
+52
+
+Attenuation at 5fo
+
+31
+
+46
+
+Attenuation at 6fo
+
+31
+
+48
+
+Attenuation at 7fo
+
+23
+
+33
+
+Attenuation at 8fo
+
+24
+
+37
+
+Attenuation at 9fo
+
+33
+
+43
+
+Attenuation at 10fo
+
+18
+
+28
+
+dB
+
+page 2/13
+
+BALFHB-WL-02D3
+RF measurements (Rx balun)
+
+1.1
+
+RF measurements (Rx balun)
+Figure 1. Insertion loss (dB)
+-1.00
+
+Figure 2. Return loss on antenna (dB)
+
+IL_RX
+
+0
+
+-1.05
+
+RL_RX_ANT
+
+-5
+
+-1.10
+
+-10
+
+-1.15
+
+-15
+
+-1.20
+
+-20
+
+-1.25
+-1.30
+
+-25
+
+-1.35
+
+-30
+
+-1.40
+
+-35
+
+-1.45
+
+f(MHz)
+
+-1.50
+860
+
+870
+
+880
+
+890
+
+900
+
+910
+
+920
+
+f(MHz)
+-40
+
+930
+
+860
+
+Figure 3. Amplitude imbalance (dB)
+1.50
+
+3.0
+
+1.25
+
+2.5
+
+1.00
+
+2.0
+
+0.75
+
+1.5
+
+0.50
+
+1.0
+
+0.25
+
+0.5
+
+0.00
+
+0.0
+
+-0.25
+
+-0.5
+
+-0.50
+
+-1.0
+
+-0.75
+
+-1.5
+
+-1.00
+
+-2.0
+
+f(MHz)
+
+-1.50
+860
+
+DS14091 - Rev 2
+
+870
+
+880
+
+890
+
+900
+
+910
+
+880
+
+890
+
+900
+
+910
+
+920
+
+930
+
+Figure 4. Phase imbalance (°)
+
+AMP_IMB
+
+-1.25
+
+870
+
+920
+
+930
+
+PHA_IMB
+
+-2.5
+
+f(MHz)
+
+-3.0
+860
+
+870
+
+880
+
+890
+
+900
+
+910
+
+920
+
+930
+
+page 3/13
+
+BALFHB-WL-02D3
+RF measurements (Tx filter)
+
+1.2
+
+RF measurements (Tx filter)
+Figure 5. Transmission wide band with harmonics
+attenuation (dB)
+0
+
+Figure 6. Insertion loss (dB)
+
+IL_TX
+
+-0.50
+
+IL_TX
+
+-0.55
+
+-10
+
+-0.60
+
+-20
+
+-0.65
+
+-30
+
+-0.70
+
+-40
+
+-0.75
+
+-50
+
+-0.80
+
+-60
+
+-0.85
+
+-70
+
+-0.90
+
+-80
+
+-0.95
+
+-90
+
+f(GHz)
+
+-100
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+f(MHz)
+
+-1.00
+860
+
+11
+
+870
+
+880
+
+890
+
+900
+
+910
+
+920
+
+930
+
+Figure 7. Return loss on antenna (dB)
+0
+
+RL_TX_ANT
+
+-5
+-10
+-15
+-20
+-25
+-30
+-35
+
+f(MHz)
+-40
+860
+
+DS14091 - Rev 2
+
+870
+
+880
+
+890
+
+900
+
+910
+
+920
+
+930
+
+page 4/13
+
+BALFHB-WL-02D3
+Package information
+
+2
+
+Package information
+In order to meet environmental requirements, ST offers these devices in different grades of ECOPACK packages,
+depending on their level of environmental compliance. ECOPACK specifications, grade definitions and product
+status are available at: www.st.com. ECOPACK is an ST trademark.
+
+2.1
+
+CSPG 8 bumps package information
+Figure 8. CSPG 8 bumps package outline (bottom view - bumps up) (in µm)
+
+Table 4. CSPG 8 bumps dimensions (in µm)
+Parameter
+
+Min.
+
+Typ.
+
+Max.
+
+A
+
+580
+
+630
+
+680
+
+A1
+
+180
+
+205
+
+230
+
+A2
+
+380
+
+400
+
+420
+
+b
+
+230
+
+255
+
+280
+
+D
+
+2080
+
+2130
+
+2150
+
+D1
+
+340
+
+D2
+
+500
+
+D3
+
+210
+
+D4
+
+630
+
+E
+
+DS14091 - Rev 2
+
+1780
+
+1830
+
+E1
+
+690
+
+E2
+
+85
+
+E3
+
+605
+
+fD1
+
+225
+
+fD2
+
+225
+
+fE1
+
+225
+
+fE2
+
+225
+
+1880
+
+page 5/13
+
+BALFHB-WL-02D3
+CSPG 8 bumps packing information
+
+2.2
+
+CSPG 8 bumps packing information
+Figure 9. Marking
+
+Figure 10. Top view
+
+Table 5. Pads description top view (pads down)
+
+DS14091 - Rev 2
+
+Pad ref.
+
+Pad name
+
+Description
+
+A1
+
+RFO_in
+
+Tx filter input
+
+A2
+
+RFI_N_out
+
+Differential-N Rx balun output
+
+A3
+
+RFI_P_out
+
+Differential-P Rx balun output
+
+B1
+
+GND2
+
+Ground #2
+
+B2
+
+GND3
+
+Ground #3
+
+C1
+
+RFO_out
+
+Tx filter output
+
+C2
+
+GND1
+
+Ground #1
+
+C3
+
+RFI_in
+
+Single ended Rx balun input
+
+page 6/13
+
+BALFHB-WL-02D3
+CSPG 8 bumps packing information
+
+Figure 11. Tape and reel outline
+
+Table 6. Tape and reel mechanical data
+Dimensions
+Millimeters
+
+Ref
+
+Note:
+
+Typ
+
+Max
+
+A0
+
+1.89
+
+1.94
+
+1.99
+
+B0
+
+2.19
+
+2.24
+
+2.29
+
+Ø D0
+
+1.40
+
+1.50
+
+1.60
+
+Ø D1
+
+0.95
+
+1.00
+
+1.05
+
+E1
+
+1.65
+
+1.75
+
+1.85
+
+F
+
+3.45
+
+3.50
+
+3.55
+
+K0
+
+0.70
+
+0.75
+
+0.80
+
+P0
+
+3.90
+
+4.00
+
+4.10
+
+P1
+
+3.90
+
+4.00
+
+4.10
+
+P2
+
+1.95
+
+2.00
+
+2.05
+
+W
+
+7.90
+
+8.00
+
+8.30
+
+More packing information is available in the application note:
+•
+
+DS14091 - Rev 2
+
+Min
+
+AN2348 Flip-Chip: “Package description and recommendations for use”
+
+page 7/13
+
+BALFHB-WL-02D3
+PCB assembly recommendations
+
+3
+
+PCB assembly recommendations
+
+3.1
+
+Land pattern
+Figure 12. QFN-4L PCB recommended land pattern
+
+Layout example using STM32WL in QFN package / 4 layers PCB for high power mode.
+Figure 13. QFN-4L PCB stack-up recommendations
+
+DS14091 - Rev 2
+
+page 8/13
+
+BALFHB-WL-02D3
+Stencil opening design
+
+3.2
+
+Stencil opening design
+
+Figure 14. Footprint - 3 mils stencil -non solder mask
+defined
+Copper pad diameter:
+220 µm recommended
+180 µm minimum
+260 µm maximum
+
+Solder mask opening:
+320 µm recommended
+300 µm minimum
+340 µm maximum
+
+Solder stencil opening:
+220 µm recommended
+
+3.3
+
+3.
+4.
+
+5.
+6.
+
+Solder stencil opening:
+220 µm recommended
+
+Halide-free flux qualification ROL0 according to ANSI/J-STD-004.
+“No clean” solder paste is recommended.
+Offers a high tack force to resist component movement during high speed.
+Use solder paste with fine particles: powder particle size 20-38 µm.
+
+Manual positioning is not recommended.
+It is recommended to use the lead recognition capabilities of the placement system, not the outline
+centering
+Standard tolerance of ±0.05 mm is recommended.
+1.0 N placement force is recommended. Too much placement force can lead to squeezed out solder paste
+and cause solder joints to short. Too low placement force can lead to insufficient contact between package
+and solder paste that could cause open solder joints or badly centered packages.
+To improve the package placement accuracy, a bottom side optical control should be performed with a high
+resolution tool.
+For assembly, a perfect supporting of the PCB (all the more on flexible PCB) is recommended during solder
+paste printing, pick and place and reflow soldering by using optimized tools.
+
+PCB design preference
+1.
+2.
+
+DS14091 - Rev 2
+
+Copper pad diameter:
+320 µm recommended
+300 µm minimum
+
+Placement
+1.
+2.
+
+3.5
+
+Solder mask opening:
+220 µm recommended
+180 µm minimum
+260 µm maximum
+
+Solder paste
+1.
+2.
+3.
+4.
+
+3.4
+
+Figure 15. Footprint - 3 mils stencil - solder mask defined
+
+To control the solder paste amount, the closed via is recommended instead of open vias.
+The position of tracks and open vias in the solder area should be well balanced. A symmetrical layout is
+recommended, to avoid any tilt phenomena caused by asymmetrical solder paste due to solder flow away.
+
+page 9/13
+
+BALFHB-WL-02D3
+Reflow profile
+
+3.6
+
+Reflow profile
+Figure 16. ST ECOPACK® recommended soldering reflow profile for PCB mounting
+
+250
+
+240-245 °C
+
+Temperature (°C)
+
+-2 °C/s
+
+2 - 3 °C/s
+60 sec
+(90 max)
+
+200
+
+-3 °C/s
+
+150
+-6 °C/s
+100
+0.9 °C/s
+50
+Time (s)
+0
+
+Note:
+Note:
+
+60
+
+90
+
+120
+
+150
+
+180
+
+210
+
+240
+
+270
+
+300
+
+Minimize air convection currents in the reflow oven to avoid component movement.
+More information is available in the application note:
+•
+
+DS14091 - Rev 2
+
+30
+
+AN2348 Flip-Chip: “Package description and recommendations for use”
+
+page 10/13
+
+BALFHB-WL-02D3
+Ordering information
+
+4
+
+Ordering information
+Table 7. Ordering information
+
+DS14091 - Rev 2
+
+Order code
+
+Marking
+
+Package
+
+Weight
+
+Base qty.
+
+Delivery mode
+
+BALFHB-WL-02D3
+
+W2
+
+CSPG
+
+3.9 mg
+
+5000
+
+Tape and reel
+
+page 11/13
+
+BALFHB-WL-02D3
+
+Revision history
+Table 8. Document revision history
+
+DS14091 - Rev 2
+
+Date
+
+Revision
+
+Changes
+
+14-Oct-2022
+
+1
+
+Initial release.
+
+21-Dec-2022
+
+2
+
+Updated Table 1. Absolute maximum ratings (Tamb = 25 °C).
+
+page 12/13
+
+BALFHB-WL-02D3
+
+IMPORTANT NOTICE – READ CAREFULLY
+STMicroelectronics NV and its subsidiaries (“ST”) reserve the right to make changes, corrections, enhancements, modifications, and improvements to ST
+products and/or to this document at any time without notice. Purchasers should obtain the latest relevant information on ST products before placing orders. ST
+products are sold pursuant to ST’s terms and conditions of sale in place at the time of order acknowledgment.
+Purchasers are solely responsible for the choice, selection, and use of ST products and ST assumes no liability for application assistance or the design of
+purchasers’ products.
+No license, express or implied, to any intellectual property right is granted by ST herein.
+Resale of ST products with provisions different from the information set forth herein shall void any warranty granted by ST for such product.
+ST and the ST logo are trademarks of ST. For additional information about ST trademarks, refer to www.st.com/trademarks. All other product or service names
+are the property of their respective owners.
+Information in this document supersedes and replaces information previously supplied in any prior versions of this document.
+© 2022 STMicroelectronics – All rights reserved
+
+DS14091 - Rev 2
+
+page 13/13
+
+

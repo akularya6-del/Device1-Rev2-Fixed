@@ -1,0 +1,30 @@
+ERC report (2026-09-20T11:45:58, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(127.14 mm, 116.98 mm): Symbol U1 Pin 18 [NRST, Input, Line]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(110.00 mm, 116.98 mm): Label 'NRST'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(127.14 mm, 116.98 mm): Horizontal Wire, length 17.14 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(127.14 mm, 116.98 mm): Symbol U1 Pin 18 [NRST, Input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_DFN_QFN'
+    ; warning
+    @(150.00 mm, 150.00 mm): Symbol U1 [STM32WL55CCUx]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'MCU_ST_STM32WL'
+    ; warning
+    @(150.00 mm, 150.00 mm): Symbol U1 [STM32WL55CCUx]
+
+ ** ERC messages: 6  Errors 1  Warnings 5
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

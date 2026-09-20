@@ -1,0 +1,156 @@
+ERC report (2026-09-20T02:56:01, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[label_dangling]: Label not connected
+    ; error
+    @(25.40 mm, 25.40 mm): Label '3V3'
+[label_dangling]: Label not connected
+    ; error
+    @(25.40 mm, 38.10 mm): Label 'GND'
+[label_dangling]: Label not connected
+    ; error
+    @(25.40 mm, 50.80 mm): Label 'VBUS_5V'
+[label_dangling]: Label not connected
+    ; error
+    @(25.40 mm, 63.50 mm): Label 'VBAT_PROT'
+[label_dangling]: Label not connected
+    ; error
+    @(25.40 mm, 76.20 mm): Label 'BATT_POS'
+[label_dangling]: Label not connected
+    ; error
+    @(25.40 mm, 88.90 mm): Label 'BATT_NEG'
+[label_dangling]: Label not connected
+    ; error
+    @(25.40 mm, 101.60 mm): Label 'SYS_PWR'
+[label_dangling]: Label not connected
+    ; error
+    @(25.40 mm, 114.30 mm): Label 'CHG_STAT'
+[label_dangling]: Label not connected
+    ; error
+    @(50.80 mm, 25.40 mm): Label '3V3'
+[label_dangling]: Label not connected
+    ; error
+    @(50.80 mm, 38.10 mm): Label 'GND'
+[label_dangling]: Label not connected
+    ; error
+    @(50.80 mm, 50.80 mm): Label 'VBUS_5V'
+[label_dangling]: Label not connected
+    ; error
+    @(50.80 mm, 63.50 mm): Label 'VBAT_PROT'
+[label_dangling]: Label not connected
+    ; error
+    @(50.80 mm, 76.20 mm): Label 'BATT_POS'
+[label_dangling]: Label not connected
+    ; error
+    @(50.80 mm, 88.90 mm): Label 'BATT_NEG'
+[label_dangling]: Label not connected
+    ; error
+    @(50.80 mm, 101.60 mm): Label 'SYS_PWR'
+[label_dangling]: Label not connected
+    ; error
+    @(50.80 mm, 114.30 mm): Label 'CHG_STAT'
+[label_dangling]: Label not connected
+    ; error
+    @(76.20 mm, 25.40 mm): Label 'MIC_WS'
+[label_dangling]: Label not connected
+    ; error
+    @(76.20 mm, 38.10 mm): Label 'MIC_SCK'
+[label_dangling]: Label not connected
+    ; error
+    @(76.20 mm, 50.80 mm): Label 'MIC_SD'
+[label_dangling]: Label not connected
+    ; error
+    @(101.60 mm, 25.40 mm): Label 'MIC_WS'
+[label_dangling]: Label not connected
+    ; error
+    @(101.60 mm, 38.10 mm): Label 'MIC_SCK'
+[label_dangling]: Label not connected
+    ; error
+    @(101.60 mm, 50.80 mm): Label 'MIC_SD'
+[label_dangling]: Label not connected
+    ; error
+    @(127.00 mm, 25.40 mm): Label 'RFO_HP'
+[label_dangling]: Label not connected
+    ; error
+    @(127.00 mm, 38.10 mm): Label 'RFI_P'
+[label_dangling]: Label not connected
+    ; error
+    @(127.00 mm, 50.80 mm): Label 'RFI_N'
+[label_dangling]: Label not connected
+    ; error
+    @(127.00 mm, 63.50 mm): Label 'RF_50OHM'
+[label_dangling]: Label not connected
+    ; error
+    @(127.00 mm, 76.20 mm): Label 'ANT_FEED'
+[label_dangling]: Label not connected
+    ; error
+    @(152.40 mm, 25.40 mm): Label 'RFO_HP'
+[label_dangling]: Label not connected
+    ; error
+    @(152.40 mm, 38.10 mm): Label 'RFI_P'
+[label_dangling]: Label not connected
+    ; error
+    @(152.40 mm, 50.80 mm): Label 'RFI_N'
+[label_dangling]: Label not connected
+    ; error
+    @(152.40 mm, 63.50 mm): Label 'RF_50OHM'
+[label_dangling]: Label not connected
+    ; error
+    @(152.40 mm, 76.20 mm): Label 'ANT_FEED'
+[label_dangling]: Label not connected
+    ; error
+    @(177.80 mm, 25.40 mm): Label 'OSC_IN'
+[label_dangling]: Label not connected
+    ; error
+    @(177.80 mm, 38.10 mm): Label 'OSC_OUT'
+[label_dangling]: Label not connected
+    ; error
+    @(203.20 mm, 25.40 mm): Label 'OSC_IN'
+[label_dangling]: Label not connected
+    ; error
+    @(203.20 mm, 38.10 mm): Label 'OSC_OUT'
+[label_dangling]: Label not connected
+    ; error
+    @(228.60 mm, 25.40 mm): Label 'SWDIO'
+[label_dangling]: Label not connected
+    ; error
+    @(228.60 mm, 38.10 mm): Label 'SWCLK'
+[label_dangling]: Label not connected
+    ; error
+    @(228.60 mm, 50.80 mm): Label 'NRST'
+[label_dangling]: Label not connected
+    ; error
+    @(228.60 mm, 63.50 mm): Label 'BOOT0'
+[label_dangling]: Label not connected
+    ; error
+    @(228.60 mm, 76.20 mm): Label 'LED_R'
+[label_dangling]: Label not connected
+    ; error
+    @(228.60 mm, 88.90 mm): Label 'LED_B'
+[label_dangling]: Label not connected
+    ; error
+    @(254.00 mm, 25.40 mm): Label 'SWDIO'
+[label_dangling]: Label not connected
+    ; error
+    @(254.00 mm, 38.10 mm): Label 'SWCLK'
+[label_dangling]: Label not connected
+    ; error
+    @(254.00 mm, 50.80 mm): Label 'NRST'
+[label_dangling]: Label not connected
+    ; error
+    @(254.00 mm, 63.50 mm): Label 'BOOT0'
+[label_dangling]: Label not connected
+    ; error
+    @(254.00 mm, 76.20 mm): Label 'LED_R'
+[label_dangling]: Label not connected
+    ; error
+    @(254.00 mm, 88.90 mm): Label 'LED_B'
+
+ ** ERC messages: 48  Errors 48  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

@@ -1,0 +1,58 @@
+** Drc report for test_mic_sck_clean.kicad_pcb **
+** Created on 2026-09-20T17:21:04 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 8 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(8.5000 mm, 30.0000 mm): Track [/MIC_SCK] on F.Cu, length 1.5000 mm
+    @(8.1620 mm, 29.2100 mm): Track [/GND] on F.Cu, length 1.2576 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1130 mm)
+    Local override; error
+    @(8.1620 mm, 29.2100 mm): Pad 3 [/GND] of MK1 on F.Cu
+    @(8.5000 mm, 30.0000 mm): Track [/MIC_SCK] on F.Cu, length 1.5000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)
+    Local override; error
+    @(8.2500 mm, 9.5620 mm): Track [/MIC_SCK] on F.Cu, length 1.2500 mm
+    @(9.7500 mm, 9.5625 mm): Pad 14 [<no net>] of U1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)
+    Local override; error
+    @(9.7500 mm, 9.5625 mm): Pad 14 [<no net>] of U1 on F.Cu
+    @(9.5000 mm, 9.5620 mm): Track [/MIC_SCK] on F.Cu, length 1.0620 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+    Local override; error
+    @(7.2500 mm, 21.0000 mm): Pad 1 [/SWCLK] of TP_SWCLK on B.Cu
+    @(8.0000 mm, 17.5000 mm): Track [/MIC_SCK] on B.Cu, length 9.0000 mm
+[shorting_items]: Items shorting two nets (nets /MIC_SCK and /3V3)
+    Local override; error
+    @(9.4000 mm, 16.5000 mm): Track [/MIC_SCK] on B.Cu, length 1.7205 mm
+    @(8.5000 mm, 17.4000 mm): Via [/3V3] on F.Cu - B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(8.2500 mm, 9.5620 mm): Track [/MIC_SCK] on F.Cu, length 1.2500 mm
+    @(9.2500 mm, 9.5625 mm): Pad 15 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(8.2500 mm, 9.5620 mm): Track [/MIC_SCK] on F.Cu, length 1.2500 mm
+    @(8.7500 mm, 9.5625 mm): Pad 16 [<no net>] of U1 on F.Cu
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 13.7500 mm): Pad 32 [/MIC_WS] of U1 on F.Cu
+    @(6.6000 mm, 27.1360 mm): Pad 1 [/MIC_WS] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 14.2500 mm): Pad 33 [/MIC_SD] of U1 on F.Cu
+    @(7.5000 mm, 27.1360 mm): Pad 6 [/MIC_SD] of MK1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

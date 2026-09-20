@@ -1,0 +1,70 @@
+** Drc report for test_led_perfect.kicad_pcb **
+** Created on 2026-09-20T17:08:30 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 3 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1950 mm)
+    Local override; error
+    @(12.7200 mm, 7.5000 mm): Track [/3V3] on F.Cu, length 2.0000 mm
+    @(10.2500 mm, 8.8000 mm): Track [/LED_B_DRV] on F.Cu, length 2.1000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0700 mm)
+    Local override; error
+    @(12.7200 mm, 10.7500 mm): Via [/3V3] on F.Cu - B.Cu
+    @(12.3500 mm, 8.8000 mm): Track [/LED_B_DRV] on B.Cu, length 5.7000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0450 mm)
+    Local override; error
+    @(12.7200 mm, 7.5000 mm): Track [/3V3] on F.Cu, length 2.0000 mm
+    @(12.3500 mm, 8.8000 mm): Via [/LED_B_DRV] on F.Cu - B.Cu
+
+** Found 10 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 13.7500 mm): Pad 32 [/MIC_WS] of U1 on F.Cu
+    @(6.6000 mm, 27.1360 mm): Pad 1 [/MIC_WS] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.2500 mm, 9.5625 mm): Pad 17 [/MIC_SCK] of U1 on F.Cu
+    @(8.4000 mm, 27.9580 mm): Pad 4 [/MIC_SCK] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 14.2500 mm): Pad 33 [/MIC_SD] of U1 on F.Cu
+    @(7.5000 mm, 27.1360 mm): Pad 6 [/MIC_SD] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0100 mm, 29.2000 mm): Pad 2 [/LED_B] of R7 on F.Cu
+    @(12.4000 mm, 28.8500 mm): Pad 2 [/LED_B] of D2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.5500 mm, 21.2000 mm): Pad 2 [/VBUS_5V] of D1 on F.Cu
+    @(11.0625 mm, 23.2500 mm): Pad 1 [/VBUS_5V] of Q2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0625 mm, 23.2500 mm): Pad 1 [/VBUS_5V] of Q2 on F.Cu
+    @(13.1375 mm, 21.1500 mm): Pad 4 [/VBUS_5V] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.7200 mm, 13.5000 mm): Pad 1 [/VBUS_5V] of C18 on F.Cu
+    @(13.5000 mm, 4.2000 mm): Pad 1 [/VBUS_5V] of TP_VBUS on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.7200 mm, 15.5000 mm): Pad 1 [/VBUS_5V] of C10 on F.Cu
+    @(12.7200 mm, 13.5000 mm): Pad 1 [/VBUS_5V] of C18 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(13.1375 mm, 21.1500 mm): Pad 4 [/VBUS_5V] of U2 on F.Cu
+    @(12.7200 mm, 15.5000 mm): Pad 1 [/VBUS_5V] of C10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0100 mm, 27.5000 mm): Pad 2 [/LED_R] of R6 on F.Cu
+    @(12.4000 mm, 28.1500 mm): Pad 1 [/LED_R] of D2 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

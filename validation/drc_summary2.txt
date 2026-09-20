@@ -1,0 +1,414 @@
+  1: [shorting_items]: Items shorting two nets (nets /SYS_PWR and /3V3)
+      @(6.0000 mm, 26.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0620 mm
+      @(8.4000 mm, 27.1360 mm): Track [/3V3] on F.Cu, length 0.8360 mm
+  2: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0522 mm)
+      @(3.2000 mm, 8.8000 mm): Via [/VR_PA] on F.Cu - B.Cu
+      @(2.8000 mm, 8.6500 mm): Track [/OSC_OUT] on F.Cu, length 0.5000 mm
+  3: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+      @(1.1200 mm, 6.0000 mm): Pad 2 [/GND] of C4 on F.Cu
+      @(1.6000 mm, 6.0000 mm): Track [/VR_PA] on F.Cu, length 0.4800 mm
+  4: [shorting_items]: Items shorting two nets (nets /GND and /VBUS_5V)
+      @(13.1375 mm, 19.2500 mm): Pad 5 [/GND] of U2 on F.Cu
+      @(13.5000 mm, 16.5000 mm): Track [/VBUS_5V] on F.Cu, length 4.6500 mm
+  5: [shorting_items]: Items shorting two nets (nets /VBUS_5V and /VBAT_PROT)
+      @(11.0625 mm, 23.2500 mm): Track [/VBUS_5V] on F.Cu, length 2.0500 mm
+      @(10.8625 mm, 21.1500 mm): Pad 3 [/VBAT_PROT] of U2 on F.Cu
+  6: [shorting_items]: Items shorting two nets (nets /VBUS_5V and /VBAT_PROT)
+      @(11.0620 mm, 21.2000 mm): Track [/VBUS_5V] on F.Cu, length 2.5120 mm
+      @(10.8625 mm, 21.1500 mm): Pad 3 [/VBAT_PROT] of U2 on F.Cu
+  7: [shorting_items]: Items shorting two nets (nets /GND and /VBAT_PROT)
+      @(10.8625 mm, 20.2000 mm): Pad 2 [/GND] of U2 on F.Cu
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+  8: [tracks_crossing]: Tracks crossing
+      @(11.0625 mm, 23.2500 mm): Track [/VBUS_5V] on F.Cu, length 2.0500 mm
+      @(10.8630 mm, 22.0000 mm): Track [/VBAT_PROT] on F.Cu, length 2.0750 mm
+  9: [tracks_crossing]: Tracks crossing
+      @(11.0620 mm, 21.2000 mm): Track [/VBUS_5V] on F.Cu, length 2.5120 mm
+      @(10.8625 mm, 21.1500 mm): Track [/VBAT_PROT] on F.Cu, length 0.8500 mm
+ 10: [shorting_items]: Items shorting two nets (nets /GND and /TP_RF)
+      @(8.5000 mm, 7.0200 mm): Pad 2 [/GND] of C11 on F.Cu
+      @(8.0000 mm, 7.2000 mm): Track [/TP_RF] on F.Cu, length 1.8000 mm
+ 11: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0800 mm)
+      @(1.6000 mm, 6.0000 mm): Via [/VR_PA] on F.Cu - B.Cu
+      @(1.1200 mm, 6.0000 mm): Track [/GND] on F.Cu, length 0.6200 mm
+ 12: [shorting_items]: Items shorting two nets (nets  and /SYS_PWR)
+      @(4.1375 mm, 21.1500 mm): Pad 4 [<no net>] of U5 on F.Cu
+      @(6.4500 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 4.5878 mm
+ 13: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1150 mm)
+      @(1.3200 mm, 17.0000 mm): Pad 2 [/GND] of C9 on F.Cu
+      @(0.8000 mm, 19.2500 mm): Track [/SYS_PWR] on F.Cu, length 2.2500 mm
+ 14: [shorting_items]: Items shorting two nets (nets /SYS_PWR and Net-(Q1-D12-Pad2))
+      @(6.0000 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0000 mm
+      @(6.3625 mm, 25.1500 mm): Pad 3 [Net-(Q1-D12-Pad2)] of Q1 on F.Cu
+ 15: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0900 mm)
+      @(8.5000 mm, 7.0200 mm): Pad 2 [/GND] of C11 on F.Cu
+      @(8.0000 mm, 5.2000 mm): Track [/TP_RF] on F.Cu, length 2.0000 mm
+ 16: [shorting_items]: Items shorting two nets (nets /SYS_PWR and /GND)
+      @(0.8000 mm, 17.0000 mm): Track [/SYS_PWR] on F.Cu, length 1.4800 mm
+      @(1.3200 mm, 17.0000 mm): Pad 2 [/GND] of C9 on F.Cu
+ 17: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1810 mm)
+      @(6.8000 mm, 17.9200 mm): Pad 1 [/3V3] of C21 on F.Cu
+      @(7.2500 mm, 16.4375 mm): Track [/SWCLK] on F.Cu, length 1.0625 mm
+ 18: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+      @(7.2500 mm, 17.5000 mm): Via [/SWCLK] on F.Cu - B.Cu
+      @(6.8000 mm, 17.9200 mm): Track [/3V3] on F.Cu, length 0.7200 mm
+ 19: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0900 mm)
+      @(5.2500 mm, 6.3150 mm): Pad 2 [/RF_50OHM] of L1 on F.Cu
+      @(5.2500 mm, 7.2850 mm): Track [/RFO_HP] on F.Cu, length 0.4850 mm
+ 20: [shorting_items]: Items shorting two nets (nets /OSC_OUT and /GND)
+      @(2.8000 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 2.6000 mm
+      @(2.3000 mm, 9.7500 mm): Pad 2 [/GND] of Y1 on F.Cu
+ 21: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0900 mm)
+      @(5.2500 mm, 6.3150 mm): Pad 2 [/RF_50OHM] of L1 on F.Cu
+      @(5.2500 mm, 6.8000 mm): Track [/RFO_HP] on F.Cu, length 0.9700 mm
+ 22: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      @(3.4000 mm, 10.7500 mm): Via [/OSC_IN] on F.Cu - B.Cu
+      @(4.0625 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 1.2625 mm
+ 23: [shorting_items]: Items shorting two nets (nets /NRST and /GND)
+      @(8.5000 mm, 7.9800 mm): Track [/NRST] on F.Cu, length 3.4800 mm
+      @(8.5000 mm, 7.0200 mm): Pad 2 [/GND] of C11 on F.Cu
+ 24: [shorting_items]: Items shorting two nets (nets /BATT_NEG and /MIC_WS)
+      @(2.0000 mm, 26.6000 mm): Pad 1 [/BATT_NEG] of TP_BATT_N on B.Cu
+      @(0.5000 mm, 26.6000 mm): Track [/MIC_WS] on B.Cu, length 6.1000 mm
+ 25: [tracks_crossing]: Tracks crossing
+      @(0.5000 mm, 26.6000 mm): Track [/MIC_WS] on B.Cu, length 6.1000 mm
+      @(0.9000 mm, 14.2500 mm): Track [/MIC_SD] on B.Cu, length 12.3500 mm
+ 26: [shorting_items]: Items shorting two nets (nets /SYS_PWR and /MIC_WS)
+      @(6.0000 mm, 26.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0620 mm
+      @(6.6000 mm, 26.6000 mm): Via [/MIC_WS] on F.Cu - B.Cu
+ 27: [shorting_items]: Items shorting two nets (nets /BATT_NEG and /MIC_SD)
+      @(2.0000 mm, 26.6000 mm): Pad 1 [/BATT_NEG] of TP_BATT_N on B.Cu
+      @(0.9000 mm, 26.6000 mm): Track [/MIC_SD] on B.Cu, length 6.6000 mm
+ 28: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      @(4.0625 mm, 14.2500 mm): Track [/MIC_SD] on F.Cu, length 0.8625 mm
+      @(3.2000 mm, 13.7500 mm): Via [/MIC_WS] on F.Cu - B.Cu
+ 29: [shorting_items]: Items shorting two nets (nets /SYS_PWR and /MIC_SD)
+      @(6.0000 mm, 26.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0620 mm
+      @(7.5000 mm, 26.6000 mm): Via [/MIC_SD] on F.Cu - B.Cu
+ 30: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      @(3.2000 mm, 14.2500 mm): Via [/MIC_SD] on F.Cu - B.Cu
+      @(4.0625 mm, 13.7500 mm): Track [/MIC_WS] on F.Cu, length 0.8625 mm
+ 31: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      @(3.2000 mm, 14.2500 mm): Track [/MIC_SD] on B.Cu, length 2.3000 mm
+      @(3.2000 mm, 13.7500 mm): Via [/MIC_WS] on F.Cu - B.Cu
+ 32: [shorting_items]: Items shorting two nets (nets /MIC_SD and /MIC_WS)
+      @(0.9000 mm, 26.6000 mm): Track [/MIC_SD] on B.Cu, length 6.6000 mm
+      @(6.6000 mm, 26.6000 mm): Via [/MIC_WS] on F.Cu - B.Cu
+ 33: [shorting_items]: Items shorting two nets (nets /NRST and /MIC_SCK)
+      @(7.7500 mm, 8.5000 mm): Track [/NRST] on F.Cu, length 0.7500 mm
+      @(8.2500 mm, 8.5000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+ 34: [tracks_crossing]: Tracks crossing
+      @(7.7500 mm, 8.5000 mm): Track [/NRST] on F.Cu, length 0.7500 mm
+      @(8.2500 mm, 9.5625 mm): Track [/MIC_SCK] on F.Cu, length 1.0625 mm
+ 35: [shorting_items]: Items shorting two nets (nets /MIC_SD and /MIC_WS)
+      @(3.2000 mm, 14.2500 mm): Via [/MIC_SD] on F.Cu - B.Cu
+      @(3.2000 mm, 13.7500 mm): Via [/MIC_WS] on F.Cu - B.Cu
+ 36: [shorting_items]: Items shorting two nets (nets /MIC_SCK and /3V3)
+      @(8.4000 mm, 27.0000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+      @(8.4000 mm, 27.1360 mm): Pad 5 [/3V3] of MK1 on F.Cu
+ 37: [shorting_items]: Items shorting two nets (nets /MIC_SCK and /3V3)
+      @(8.4000 mm, 27.0000 mm): Track [/MIC_SCK] on F.Cu, length 0.9580 mm
+      @(8.4000 mm, 27.1360 mm): Pad 5 [/3V3] of MK1 on F.Cu
+ 38: [tracks_crossing]: Tracks crossing
+      @(11.8000 mm, 10.2500 mm): Track [/LED_R_DRV] on B.Cu, length 16.7500 mm
+      @(13.5000 mm, 23.2500 mm): Track [/VBUS_5V] on B.Cu, length 2.4375 mm
+ 39: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0750 mm)
+      @(12.7200 mm, 10.7500 mm): Track [/3V3] on F.Cu, length 1.7825 mm
+      @(11.8000 mm, 10.2500 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+ 40: [shorting_items]: Items shorting two nets (nets /LED_B_DRV and /LED_R_DRV)
+      @(10.2500 mm, 8.5000 mm): Track [/LED_B_DRV] on B.Cu, length 20.0000 mm
+      @(9.9900 mm, 27.0000 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+ 41: [shorting_items]: Items shorting two nets (nets /MIC_SD and /MIC_WS)
+      @(3.2000 mm, 14.2500 mm): Via [/MIC_SD] on F.Cu - B.Cu
+      @(3.2000 mm, 13.7500 mm): Via [/MIC_WS] on F.Cu - B.Cu
+ 42: [tracks_crossing]: Tracks crossing
+      @(11.8000 mm, 27.0000 mm): Track [/LED_R_DRV] on B.Cu, length 1.8100 mm
+      @(10.2500 mm, 8.5000 mm): Track [/LED_B_DRV] on B.Cu, length 20.0000 mm
+ 43: [shorting_items]: Items shorting two nets (nets /MIC_SD and /MIC_WS)
+      @(3.2000 mm, 14.2500 mm): Via [/MIC_SD] on F.Cu - B.Cu
+      @(3.2000 mm, 13.7500 mm): Via [/MIC_WS] on F.Cu - B.Cu
+ 44: [shorting_items]: Items shorting two nets (nets /MIC_SD and /GND)
+      @(0.9000 mm, 14.2500 mm): Track [/MIC_SD] on B.Cu, length 12.3500 mm
+      @(0.8000 mm, 24.2000 mm): Via [/GND] on F.Cu - B.Cu
+ 45: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+      @(8.0000 mm, 5.2000 mm): Track [/TP_RF] on F.Cu, length 2.0000 mm
+      @(8.5000 mm, 6.2000 mm): Via [/GND] on F.Cu - B.Cu
+ 46: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0950 mm)
+      @(1.3200 mm, 17.8000 mm): Via [/GND] on F.Cu - B.Cu
+      @(0.8000 mm, 19.2500 mm): Track [/SYS_PWR] on F.Cu, length 2.2500 mm
+ 47: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0450 mm)
+      @(1.3200 mm, 17.8000 mm): Via [/GND] on F.Cu - B.Cu
+      @(0.9000 mm, 14.2500 mm): Track [/MIC_SD] on B.Cu, length 12.3500 mm
+ 48: [shorting_items]: Items shorting two nets (nets /GND and /MIC_SCK)
+      @(8.5000 mm, 12.0000 mm): Via [/GND] on F.Cu - B.Cu
+      @(8.2500 mm, 8.5000 mm): Track [/MIC_SCK] on B.Cu, length 18.5000 mm
+ 49: [shorting_items]: Items shorting two nets (nets /GND and /MIC_SCK)
+      @(8.5000 mm, 14.0000 mm): Via [/GND] on F.Cu - B.Cu
+      @(8.2500 mm, 8.5000 mm): Track [/MIC_SCK] on B.Cu, length 18.5000 mm
+ 50: [shorting_items]: Items shorting two nets (nets /SYS_PWR and /GND)
+      @(0.8000 mm, 21.1500 mm): Track [/SYS_PWR] on F.Cu, length 1.9000 mm
+      @(0.8000 mm, 20.2000 mm): Via [/GND] on F.Cu - B.Cu
+ 51: [shorting_items]: Items shorting two nets (nets /GND and /MIC_SD)
+      @(0.8000 mm, 20.2000 mm): Via [/GND] on F.Cu - B.Cu
+      @(0.9000 mm, 14.2500 mm): Track [/MIC_SD] on B.Cu, length 12.3500 mm
+ 52: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1709 mm)
+      @(8.1600 mm, 29.5000 mm): Via [/GND] on F.Cu - B.Cu
+      @(7.5000 mm, 29.2100 mm): NPTH pad of MK1
+ 53: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1709 mm)
+      @(8.1600 mm, 29.5000 mm): Via [/GND] on F.Cu - B.Cu
+      @(7.5000 mm, 29.2100 mm): NPTH pad of MK1
+ 54: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1709 mm)
+      @(8.1600 mm, 29.5000 mm): Via [/GND] on F.Cu - B.Cu
+      @(7.5000 mm, 29.2100 mm): NPTH pad of MK1
+ 55: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1709 mm)
+      @(8.1600 mm, 29.5000 mm): Via [/GND] on F.Cu - B.Cu
+      @(7.5000 mm, 29.2100 mm): NPTH pad of MK1
+ 56: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      @(9.7500 mm, 19.8000 mm): Via [/GND] on F.Cu - B.Cu
+      @(10.2500 mm, 8.5000 mm): Track [/LED_B_DRV] on B.Cu, length 20.0000 mm
+ 57: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0750 mm)
+      @(6.0000 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0000 mm
+      @(5.5000 mm, 23.2500 mm): Via [/GND] on F.Cu - B.Cu
+ 58: [shorting_items]: Items shorting two nets (nets /GND and /MIC_SCK)
+      @(8.5000 mm, 13.0000 mm): Via [/GND] on F.Cu - B.Cu
+      @(8.2500 mm, 8.5000 mm): Track [/MIC_SCK] on B.Cu, length 18.5000 mm
+ 59: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      @(2.3000 mm, 10.5000 mm): Via [/GND] on F.Cu - B.Cu
+      @(2.8000 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 2.6000 mm
+ 60: [shorting_items]: Items shorting two nets (nets /GND and /VBUS_5V)
+      @(12.6800 mm, 16.8000 mm): Via [/GND] on F.Cu - B.Cu
+      @(12.7200 mm, 16.5000 mm): Track [/VBUS_5V] on F.Cu, length 0.7800 mm
+ 61: [shorting_items]: Items shorting two nets (nets /GND and /OSC_IN)
+      @(2.3000 mm, 10.5000 mm): Via [/GND] on F.Cu - B.Cu
+      @(3.4000 mm, 10.2500 mm): Track [/OSC_IN] on B.Cu, length 2.5000 mm
+ 62: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0450 mm)
+      @(1.3200 mm, 14.6000 mm): Via [/GND] on F.Cu - B.Cu
+      @(0.9000 mm, 14.2500 mm): Track [/MIC_SD] on B.Cu, length 12.3500 mm
+ 63: [tracks_crossing]: Tracks crossing
+      @(0.8000 mm, 17.0000 mm): Track [/SYS_PWR] on F.Cu, length 1.4800 mm
+      @(1.3200 mm, 17.0000 mm): Track [/GND] on F.Cu, length 0.8000 mm
+ 64: [tracks_crossing]: Tracks crossing
+      @(6.0000 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0000 mm
+      @(6.3625 mm, 23.2500 mm): Track [/GND] on F.Cu, length 0.8625 mm
+ 65: [tracks_crossing]: Tracks crossing
+      @(0.8000 mm, 21.1500 mm): Track [/SYS_PWR] on F.Cu, length 1.9000 mm
+      @(1.8625 mm, 20.2000 mm): Track [/GND] on F.Cu, length 1.0625 mm
+ 66: [tracks_crossing]: Tracks crossing
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+      @(10.8625 mm, 20.2000 mm): Track [/GND] on F.Cu, length 3.3375 mm
+ 67: [tracks_crossing]: Tracks crossing
+      @(8.5000 mm, 7.9800 mm): Track [/NRST] on F.Cu, length 3.4800 mm
+      @(8.5000 mm, 7.0200 mm): Track [/GND] on F.Cu, length 0.8200 mm
+ 68: [tracks_crossing]: Tracks crossing
+      @(13.5000 mm, 16.5000 mm): Track [/VBUS_5V] on F.Cu, length 4.6500 mm
+      @(13.1375 mm, 19.2500 mm): Track [/GND] on F.Cu, length 1.0625 mm
+ 69: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+      @(10.9375 mm, 15.7500 mm): Pad 1 [<no net>] of U1 on F.Cu
+      @(10.2500 mm, 16.4375 mm): Track [/GND] on F.Cu, length 0.8375 mm
+ 70: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0777 mm)
+      @(12.6800 mm, 17.8000 mm): Track [/GND] on F.Cu, length 1.0000 mm
+      @(12.7200 mm, 16.5000 mm): Track [/VBUS_5V] on F.Cu, length 0.7800 mm
+ 71: [tracks_crossing]: Tracks crossing
+      @(6.0000 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0000 mm
+      @(1.8630 mm, 22.2000 mm): Track [/GATE_OD] on F.Cu, length 6.7740 mm
+ 72: [tracks_crossing]: Tracks crossing
+      @(6.0000 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0000 mm
+      @(1.8630 mm, 25.8000 mm): Track [/GATE_OC] on F.Cu, length 5.6370 mm
+ 73: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)
+      @(11.8000 mm, 10.2500 mm): Track [/LED_R_DRV] on B.Cu, length 16.7500 mm
+      @(12.0000 mm, 12.7500 mm): Track [/CHG_STAT] on B.Cu, length 6.5000 mm
+ 74: [tracks_crossing]: Tracks crossing
+      @(12.0000 mm, 19.2500 mm): Track [/CHG_STAT] on F.Cu, length 1.1375 mm
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+ 75: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0801 mm)
+      @(6.6000 mm, 6.0000 mm): Via [/BOOT0] on F.Cu - B.Cu
+      @(7.2500 mm, 6.2000 mm): Via [/GND] on F.Cu - B.Cu
+ 76: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+      @(12.0000 mm, 19.2500 mm): Via [/CHG_STAT] on F.Cu - B.Cu
+      @(13.1375 mm, 19.2500 mm): Pad 5 [/GND] of U2 on F.Cu
+ 77: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0801 mm)
+      @(6.6000 mm, 6.0000 mm): Via [/BOOT0] on F.Cu - B.Cu
+      @(7.2500 mm, 6.2000 mm): Via [/GND] on F.Cu - B.Cu
+ 78: [shorting_items]: Items shorting two nets (nets /LED_R_DRV and /CHG_STAT)
+      @(11.8000 mm, 10.2500 mm): Track [/LED_R_DRV] on B.Cu, length 16.7500 mm
+      @(12.0000 mm, 19.2500 mm): Via [/CHG_STAT] on F.Cu - B.Cu
+ 79: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0801 mm)
+      @(6.6000 mm, 6.0000 mm): Via [/BOOT0] on F.Cu - B.Cu
+      @(7.2500 mm, 6.2000 mm): Via [/GND] on F.Cu - B.Cu
+ 80: [shorting_items]: Items shorting two nets (nets /LED_R_DRV and /CHG_STAT)
+      @(11.8000 mm, 10.2500 mm): Track [/LED_R_DRV] on B.Cu, length 16.7500 mm
+      @(12.0000 mm, 12.7500 mm): Via [/CHG_STAT] on F.Cu - B.Cu
+ 81: [tracks_crossing]: Tracks crossing
+      @(4.1380 mm, 25.1500 mm): Track [/BATT_NEG] on F.Cu, length 4.4995 mm
+      @(7.5000 mm, 25.8000 mm): Track [/GATE_OC] on F.Cu, length 1.6000 mm
+ 82: [tracks_crossing]: Tracks crossing
+      @(4.1375 mm, 23.2500 mm): Track [/BATT_NEG] on F.Cu, length 1.9000 mm
+      @(4.8000 mm, 24.2000 mm): Track [/BATT_POS] on F.Cu, length 0.6625 mm
+ 83: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0801 mm)
+      @(6.6000 mm, 6.0000 mm): Via [/BOOT0] on F.Cu - B.Cu
+      @(7.2500 mm, 6.2000 mm): Via [/GND] on F.Cu - B.Cu
+ 84: [shorting_items]: Items shorting two nets (nets  and /BATT_NEG)
+      @(4.1375 mm, 25.1500 mm): Pad 4 [<no net>] of U4 on F.Cu
+      @(4.1380 mm, 26.6000 mm): Track [/BATT_NEG] on F.Cu, length 1.4500 mm
+ 85: [shorting_items]: Items shorting two nets (nets /MIC_SD and /BATT_NEG)
+      @(0.9000 mm, 26.6000 mm): Track [/MIC_SD] on B.Cu, length 6.6000 mm
+      @(2.0000 mm, 26.6000 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+ 86: [shorting_items]: Items shorting two nets (nets /SYS_PWR and /3V3)
+      @(6.0000 mm, 26.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0620 mm
+      @(8.4000 mm, 26.3000 mm): Via [/3V3] on F.Cu - B.Cu
+ 87: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+      @(8.4000 mm, 27.0000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+      @(8.4000 mm, 26.3000 mm): Via [/3V3] on F.Cu - B.Cu
+ 88: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1069 mm)
+      @(2.0000 mm, 26.6000 mm): Pad 1 [/BATT_NEG] of TP_BATT_N on B.Cu
+      @(1.3200 mm, 27.2000 mm): Via [/3V3] on F.Cu - B.Cu
+ 89: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+      @(8.4000 mm, 27.0000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+      @(8.4000 mm, 26.3000 mm): Via [/3V3] on F.Cu - B.Cu
+ 90: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1433 mm)
+      @(2.3000 mm, 10.5000 mm): Via [/GND] on F.Cu - B.Cu
+      @(3.0000 mm, 10.2500 mm): Via [/3V3] on F.Cu - B.Cu
+ 91: [shorting_items]: Items shorting two nets (nets /3V3 and /VBUS_5V)
+      @(13.5000 mm, 17.8000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(13.5000 mm, 16.5000 mm): Track [/VBUS_5V] on F.Cu, length 4.6500 mm
+ 92: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      @(8.2500 mm, 8.5000 mm): Track [/MIC_SCK] on B.Cu, length 18.5000 mm
+      @(8.7500 mm, 17.0000 mm): Via [/3V3] on F.Cu - B.Cu
+ 93: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0403 mm)
+      @(3.4000 mm, 10.7500 mm): Via [/OSC_IN] on F.Cu - B.Cu
+      @(3.0000 mm, 10.2500 mm): Via [/3V3] on F.Cu - B.Cu
+ 94: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0403 mm)
+      @(3.4000 mm, 10.7500 mm): Via [/OSC_IN] on F.Cu - B.Cu
+      @(3.0000 mm, 10.2500 mm): Via [/3V3] on F.Cu - B.Cu
+ 95: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      @(6.7500 mm, 17.2000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(7.2500 mm, 16.4375 mm): Track [/SWCLK] on F.Cu, length 1.0625 mm
+ 96: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      @(3.0000 mm, 11.7500 mm): Via [/3V3] on F.Cu - B.Cu
+      @(4.0625 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 1.2625 mm
+ 97: [shorting_items]: Items shorting two nets (nets /3V3 and /SWCLK)
+      @(6.7500 mm, 17.2000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(7.2500 mm, 17.5000 mm): Via [/SWCLK] on F.Cu - B.Cu
+ 98: [shorting_items]: Items shorting two nets (nets /MIC_SD and /3V3)
+      @(3.2000 mm, 14.2500 mm): Track [/MIC_SD] on B.Cu, length 2.3000 mm
+      @(2.2800 mm, 14.6000 mm): Via [/3V3] on F.Cu - B.Cu
+ 99: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+      @(8.4000 mm, 27.0000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+      @(8.4000 mm, 26.3000 mm): Via [/3V3] on F.Cu - B.Cu
+100: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0403 mm)
+      @(3.4000 mm, 10.7500 mm): Via [/OSC_IN] on F.Cu - B.Cu
+      @(3.0000 mm, 10.2500 mm): Via [/3V3] on F.Cu - B.Cu
+101: [shorting_items]: Items shorting two nets (nets /3V3 and /SWCLK)
+      @(6.7500 mm, 17.2000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(7.2500 mm, 17.5000 mm): Via [/SWCLK] on F.Cu - B.Cu
+102: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+      @(4.0625 mm, 10.2500 mm): Track [/3V3] on F.Cu, length 1.0625 mm
+      @(2.8000 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 2.6000 mm
+103: [shorting_items]: Items shorting two nets (nets /3V3 and /SWCLK)
+      @(6.7500 mm, 17.2000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(7.2500 mm, 17.5000 mm): Via [/SWCLK] on F.Cu - B.Cu
+104: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0983 mm)
+      @(8.5000 mm, 7.9800 mm): Pad 1 [/NRST] of C11 on F.Cu
+      @(8.2500 mm, 8.5000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+105: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0500 mm)
+      @(1.1200 mm, 6.0000 mm): Pad 2 [/GND] of C4 on F.Cu
+      @(1.6000 mm, 6.0000 mm): Via [/VR_PA] on F.Cu - B.Cu
+106: [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1474 mm)
+      @(10.8625 mm, 19.2500 mm): Pad 1 [/CHG_STAT] of U2 on F.Cu
+      @(9.7500 mm, 18.8800 mm): Pad 2 [/GND] of C12 on F.Cu
+107: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
+      @(8.4000 mm, 27.1360 mm): Pad 5 [/3V3] of MK1 on F.Cu
+      @(8.4000 mm, 27.0000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+108: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1060 mm)
+      @(6.8000 mm, 17.9200 mm): Pad 1 [/3V3] of C21 on F.Cu
+      @(7.2500 mm, 17.5000 mm): Via [/SWCLK] on F.Cu - B.Cu
+109: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1908 mm)
+      @(2.3000 mm, 9.7500 mm): Pad 2 [/GND] of Y1 on F.Cu
+      @(3.0000 mm, 10.2500 mm): Via [/3V3] on F.Cu - B.Cu
+110: [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
+      @(7.2500 mm, 17.5000 mm): Pad 1 [/SWCLK] of TP_SWCLK on B.Cu
+      @(6.7500 mm, 17.2000 mm): Via [/3V3] on F.Cu - B.Cu
+111: [courtyards_overlap]: Courtyards overlap
+      @(12.0000 mm, 20.2000 mm): Footprint U2
+      @(9.7500 mm, 18.4000 mm): Footprint C12
+112: [copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.2000 mm)
+      @(0.0000 mm, 30.0000 mm): Segment on Edge.Cuts
+      @(0.5000 mm, 6.0000 mm): Via [/GND] on F.Cu - B.Cu
+113: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(8.4000 mm, 27.0000 mm): Track [/MIC_SCK] on F.Cu, length 0.9580 mm
+      @(8.4000 mm, 27.1360 mm): Pad 5 [/3V3] of MK1 on F.Cu
+114: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(8.4000 mm, 27.0000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+      @(8.4000 mm, 27.1360 mm): Pad 5 [/3V3] of MK1 on F.Cu
+115: [solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+      @(6.7500 mm, 17.2000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(7.2500 mm, 17.5000 mm): Pad 1 [/SWCLK] of TP_SWCLK on B.Cu
+116: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(8.2500 mm, 8.5000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+      @(8.5000 mm, 7.9800 mm): Pad 1 [/NRST] of C11 on F.Cu
+117: [solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+      @(0.9000 mm, 26.6000 mm): Track [/MIC_SD] on B.Cu, length 6.6000 mm
+      @(2.0000 mm, 26.6000 mm): Pad 1 [/BATT_NEG] of TP_BATT_N on B.Cu
+118: [solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+      @(0.5000 mm, 26.6000 mm): Track [/MIC_WS] on B.Cu, length 6.1000 mm
+      @(2.0000 mm, 26.6000 mm): Pad 1 [/BATT_NEG] of TP_BATT_N on B.Cu
+119: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(4.1375 mm, 23.2500 mm): Track [/BATT_NEG] on F.Cu, length 1.9000 mm
+      @(4.1375 mm, 25.1500 mm): Pad 4 [<no net>] of U4 on F.Cu
+120: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(8.5000 mm, 7.9800 mm): Track [/NRST] on F.Cu, length 3.4800 mm
+      @(8.5000 mm, 7.0200 mm): Pad 2 [/GND] of C11 on F.Cu
+121: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(6.0000 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0000 mm
+      @(6.3625 mm, 23.2500 mm): Pad 1 [/GND] of Q1 on F.Cu
+122: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(4.1375 mm, 23.2500 mm): Track [/BATT_NEG] on F.Cu, length 1.9000 mm
+      @(4.1375 mm, 24.2000 mm): Pad 5 [/BATT_POS] of U4 on F.Cu
+123: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(6.0000 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0000 mm
+      @(6.3625 mm, 24.2000 mm): Pad 2 [Net-(Q1-D12-Pad2)] of Q1 on F.Cu
+124: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(4.1380 mm, 25.1500 mm): Track [/BATT_NEG] on F.Cu, length 4.4995 mm
+      @(4.1375 mm, 25.1500 mm): Pad 4 [<no net>] of U4 on F.Cu
+125: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(6.0000 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 5.0000 mm
+      @(6.3625 mm, 25.1500 mm): Pad 3 [Net-(Q1-D12-Pad2)] of Q1 on F.Cu
+126: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(4.1380 mm, 25.1500 mm): Track [/BATT_NEG] on F.Cu, length 4.4995 mm
+      @(6.3625 mm, 25.1500 mm): Pad 3 [Net-(Q1-D12-Pad2)] of Q1 on F.Cu
+127: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(2.8000 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 2.6000 mm
+      @(2.3000 mm, 9.7500 mm): Pad 2 [/GND] of Y1 on F.Cu
+128: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(4.1380 mm, 26.6000 mm): Track [/BATT_NEG] on F.Cu, length 1.4500 mm
+      @(4.1375 mm, 25.1500 mm): Pad 4 [<no net>] of U4 on F.Cu
+129: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(0.8000 mm, 17.0000 mm): Track [/SYS_PWR] on F.Cu, length 1.4800 mm
+      @(1.3200 mm, 17.0000 mm): Pad 2 [/GND] of C9 on F.Cu
+130: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(6.4500 mm, 21.2000 mm): Track [/SYS_PWR] on F.Cu, length 4.5878 mm
+      @(4.1375 mm, 21.1500 mm): Pad 4 [<no net>] of U5 on F.Cu
+131: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(7.2500 mm, 17.5000 mm): Via [/SWCLK] on F.Cu - B.Cu
+      @(6.8000 mm, 17.9200 mm): Pad 1 [/3V3] of C21 on F.Cu
+132: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(8.0000 mm, 7.2000 mm): Track [/TP_RF] on F.Cu, length 1.8000 mm
+      @(8.5000 mm, 7.0200 mm): Pad 2 [/GND] of C11 on F.Cu
+133: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+      @(10.8625 mm, 19.2500 mm): Pad 1 [/CHG_STAT] of U2 on F.Cu
+134: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+      @(10.8625 mm, 20.2000 mm): Pad 2 [/GND] of U2 on F.Cu
+135: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(11.0620 mm, 21.2000 mm): Track [/VBUS_5V] on F.Cu, length 2.5120 mm
+      @(10.8625 mm, 21.1500 mm): Pad 3 [/VBAT_PROT] of U2 on F.Cu
+136: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(11.0625 mm, 23.2500 mm): Track [/VBUS_5V] on F.Cu, length 2.0500 mm
+      @(10.8625 mm, 21.1500 mm): Pad 3 [/VBAT_PROT] of U2 on F.Cu
+137: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(13.5000 mm, 16.5000 mm): Track [/VBUS_5V] on F.Cu, length 4.6500 mm
+      @(13.1375 mm, 19.2500 mm): Pad 5 [/GND] of U2 on F.Cu
+138: [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      @(1.6000 mm, 6.0000 mm): Via [/VR_PA] on F.Cu - B.Cu
+      @(1.1200 mm, 6.0000 mm): Pad 2 [/GND] of C4 on F.Cu

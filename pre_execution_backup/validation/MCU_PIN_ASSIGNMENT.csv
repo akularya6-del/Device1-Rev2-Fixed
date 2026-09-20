@@ -1,0 +1,50 @@
+NET,MCU PIN,PIN NUMBER,FUNCTION,SOURCE
+PB3,PB3,1,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PB4,PB4,2,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PB5,PB5,3,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+DBG_TX,PB6,4,USART1_TX (Debug Serial Output),STM32WL55CC Datasheet DS13293
+DBG_RX,PB7,5,USART1_RX (Debug Serial Input),STM32WL55CC Datasheet DS13293
+PB8,PB8,6,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PA0,PA0,7,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PA1,PA1,8,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PA2,PA2,9,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PA3,PA3,10,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+3V3,VDD,11,Digital Core Supply (100nF decoupling),ST AN5407 Figure 3
+LED_R,PA4,12,GPIO / Red LED Control,Design Specification
+LED_B,PA5,13,GPIO / Blue LED Control,Design Specification
+PA6,PA6,14,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PA7,PA7,15,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PA8,PA8,16,GPIO / Optional MCLK,STM32WL55CC Datasheet DS13293
+MIC_SCK,PA9,17,I2S2_CK (Bit Clock to MEMS Mic),STM32WL55CC Pinout / SPI2 Alternate Functions
+NRST,NRST,18,Master Asynchronous Reset (100nF to GND),ST AN5407 Hardware Getting Started
+BOOT0,PH3,19,BOOT0 Configuration (10k pull-down),ST AN5407 Figure 4
+RFI_P,RFI_P,20,Sub-GHz RF Receiver Differential Input P,ST AN5407 / BALFHB-WL-02D3
+RFI_N,RFI_N,21,Sub-GHz RF Receiver Differential Input N,ST AN5407 / BALFHB-WL-02D3
+RFO_LP,RFO_LP,22,Sub-GHz Low-Power PA Output (+15 dBm),STM32WL55CC Datasheet DS13293
+RFO_HP,RFO_HP,23,Sub-GHz High-Power PA Output (+22 dBm),ST AN5407 / BALFHB-WL-02D3
+VR_PA,VR_PA,24,PA Regulated Power Supply (47nF + 220nF to GND),ST AN5407 Figure 7
+3V3,VDDPA,25,PA Power Supply (100nF decoupling to GND),ST AN5407 Figure 7
+OSC_IN,OSC_IN,26,32 MHz High-Speed Crystal Input (Y1),ST AN5430 / Murata XRCGB32M
+OSC_OUT,OSC_OUT,27,32 MHz High-Speed Crystal Output (Y1),ST AN5430 / Murata XRCGB32M
+3V3,VDDRF,28,Radio Power Supply (100nF decoupling to GND),ST AN5407 Figure 7
+VDDRF1V55,VDDRF1V55,29,Internal 1.55V LDO RF Decoupling (100nF to GND),ST AN5407 Figure 7
+PB0,PB0,30,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PB2,PB2,31,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+MIC_WS,PB12,32,I2S2_WS (Word Select / LRCLK to MEMS Mic),STM32WL55CC Pinout / SPI2 Alternate Functions
+MIC_SD,PA10,33,I2S2_SD (Serial Audio Data from MEMS Mic),STM32WL55CC Pinout / SPI2 Alternate Functions
+PA11,PA11,34,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+PA12,PA12,35,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+SWDIO,PA13,36,SWD Serial Wire Data Input/Output,ARM CoreSight / ST AN5407
+3V3,VBAT,37,Backup Battery / Main VDD Supply (100nF to GND),ST AN5407 Figure 3
+PC13,PC13,38,GPIO / Pushbutton or Tamper Input,STM32WL55CC Datasheet DS13293
+PC14,PC14,39,GPIO / Standard I/O (LSE unused),STM32WL55CC Datasheet DS13293
+PC15,PC15,40,GPIO / Standard I/O (LSE unused),STM32WL55CC Datasheet DS13293
+3V3,VDDA,41,Analog Power Supply (10nF + 1uF to GND),ST AN5407 Figure 3
+SWCLK,PA14,42,SWD Serial Wire Clock Input,ARM CoreSight / ST AN5407
+PA15,PA15,43,GPIO / General Purpose,STM32WL55CC Datasheet DS13293
+3V3,VDD,44,Digital Core Supply (100nF + 4.7uF Bulk Decoupling),ST AN5407 Figure 3
+3V3,VFBSMPS,45,SMPS Feedback Node (Tied to VDD),ST AN5407 LDO / Linear Mode Config
+3V3,VDDSMPS,46,SMPS Input Supply (Tied to 3V3),ST AN5407 LDO / Linear Mode Config
+VLXSMPS,VLXSMPS,47,SMPS Switch Node (Decoupled in LDO mode),ST AN5407 LDO / Linear Mode Config
+GND,VSSSMPS,48,SMPS Ground Return (Tied to GND),ST AN5407 LDO / Linear Mode Config
+GND,VSS (EP),49,Exposed Center Ground Pad (Connects to L2 GND plane),ST UFQFPN48 Land Pattern DS13293
