@@ -1,0 +1,38 @@
+** Drc report for test_master_zero3.kicad_pcb **
+** Created on 2026-09-20T16:59:29 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 0 DRC violations **
+
+** Found 5 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 13.7500 mm): Pad 32 [/MIC_WS] of U1 on F.Cu
+    @(6.6000 mm, 27.1360 mm): Pad 1 [/MIC_WS] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.2500 mm, 9.5625 mm): Pad 17 [/MIC_SCK] of U1 on F.Cu
+    @(8.4000 mm, 27.9580 mm): Pad 4 [/MIC_SCK] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 14.2500 mm): Pad 33 [/MIC_SD] of U1 on F.Cu
+    @(7.5000 mm, 27.1360 mm): Pad 6 [/MIC_SD] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9.9900 mm, 29.2000 mm): Pad 1 [/LED_B_DRV] of R7 on F.Cu
+    @(10.2500 mm, 9.5625 mm): Pad 13 [/LED_B_DRV] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9.9900 mm, 27.5000 mm): Pad 1 [/LED_R_DRV] of R6 on F.Cu
+    @(10.9375 mm, 10.2500 mm): Pad 12 [/LED_R_DRV] of U1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

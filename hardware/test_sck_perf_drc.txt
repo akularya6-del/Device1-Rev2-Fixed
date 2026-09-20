@@ -1,0 +1,62 @@
+** Drc report for test_mic_sck_perfect.kicad_pcb **
+** Created on 2026-09-20T17:21:59 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 9 DRC violations **
+[shorting_items]: Items shorting two nets (nets  and /MIC_SCK)
+    Local override; error
+    @(9.2500 mm, 9.5625 mm): Pad 15 [<no net>] of U1 on F.Cu
+    @(9.1000 mm, 9.5620 mm): Track [/MIC_SCK] on F.Cu, length 1.1620 mm
+[shorting_items]: Items shorting two nets (nets  and /MIC_SCK)
+    Local override; error
+    @(9.2500 mm, 9.5625 mm): Pad 15 [<no net>] of U1 on F.Cu
+    @(8.2500 mm, 9.5620 mm): Track [/MIC_SCK] on F.Cu, length 0.8500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1200 mm)
+    Local override; error
+    @(8.5000 mm, 7.9800 mm): Track [/NRST] on F.Cu, length 0.7000 mm
+    @(9.1000 mm, 8.4000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1342 mm)
+    Local override; error
+    @(9.0000 mm, 27.5000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+    @(8.4000 mm, 27.1360 mm): Pad 5 [/3V3] of MK1 on F.Cu
+[shorting_items]: Items shorting two nets (nets /VBUS_5V and /MIC_SCK)
+    Local override; error
+    @(8.5500 mm, 20.5000 mm): Via [/VBUS_5V] on F.Cu - B.Cu
+    @(8.2500 mm, 18.8000 mm): Track [/MIC_SCK] on B.Cu, length 7.7000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0870 mm)
+    Local override; error
+    @(8.2500 mm, 18.8000 mm): Track [/MIC_SCK] on B.Cu, length 7.7000 mm
+    @(8.6370 mm, 25.1500 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(9.1000 mm, 9.5620 mm): Track [/MIC_SCK] on F.Cu, length 1.1620 mm
+    @(9.2500 mm, 9.5625 mm): Pad 15 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(8.2500 mm, 9.5620 mm): Track [/MIC_SCK] on F.Cu, length 0.8500 mm
+    @(9.2500 mm, 9.5625 mm): Pad 15 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(8.2500 mm, 9.5620 mm): Track [/MIC_SCK] on F.Cu, length 0.8500 mm
+    @(8.7500 mm, 9.5625 mm): Pad 16 [<no net>] of U1 on F.Cu
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 13.7500 mm): Pad 32 [/MIC_WS] of U1 on F.Cu
+    @(6.6000 mm, 27.1360 mm): Pad 1 [/MIC_WS] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 14.2500 mm): Pad 33 [/MIC_SD] of U1 on F.Cu
+    @(7.5000 mm, 27.1360 mm): Pad 6 [/MIC_SD] of MK1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

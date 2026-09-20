@@ -1,0 +1,802 @@
+==================================================
+CLUSTER: ('GND', 'VBUS_5V') (Count: 11)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1925 mm)
+      Local override; error
+      @(13.1375 mm, 19.2500 mm): Track [/GND] on F.Cu, length 1.0625 mm
+      @(12.7200 mm, 15.5000 mm): Track [/VBUS_5V] on F.Cu, length 5.6500 mm
+
+  [shorting_items]: Items shorting two nets (nets /GND and /VBUS_5V)
+      Local override; error
+      @(12.6800 mm, 18.8000 mm): Via [/GND] on F.Cu - B.Cu
+      @(12.7200 mm, 15.5000 mm): Track [/VBUS_5V] on F.Cu, length 5.6500 mm
+
+  [shorting_items]: Items shorting two nets (nets /GND and /VBUS_5V)
+      Local override; error
+      @(13.2000 mm, 22.8000 mm): Pad 1 [/GND] of TP_GND on B.Cu
+      @(13.8000 mm, 21.1500 mm): Track [/VBUS_5V] on B.Cu, length 2.1000 mm
+
+  [shorting_items]: Items shorting two nets (nets /VBUS_5V and /GND)
+      Local override; error
+      @(13.8000 mm, 23.2500 mm): Track [/VBUS_5V] on B.Cu, length 2.7375 mm
+      @(13.2000 mm, 22.8000 mm): Pad 1 [/GND] of TP_GND on B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /GND and /VBUS_5V)
+      Local override; error
+      @(12.6800 mm, 17.8000 mm): Pad 2 [/GND] of C17 on F.Cu
+      @(12.7200 mm, 15.5000 mm): Track [/VBUS_5V] on F.Cu, length 5.6500 mm
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+      Local override; error
+      @(13.2000 mm, 22.8000 mm): Via [/GND] on F.Cu - B.Cu
+      @(13.8000 mm, 23.2500 mm): Track [/VBUS_5V] on B.Cu, length 2.7375 mm
+
+  [shorting_items]: Items shorting two nets (nets /GND and /VBUS_5V)
+      Local override; error
+      @(12.6800 mm, 17.8000 mm): Track [/GND] on F.Cu, length 1.0000 mm
+      @(12.7200 mm, 15.5000 mm): Track [/VBUS_5V] on F.Cu, length 5.6500 mm
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(12.7200 mm, 15.5000 mm): Track [/VBUS_5V] on F.Cu, length 5.6500 mm
+      @(12.6800 mm, 17.8000 mm): Pad 2 [/GND] of C17 on F.Cu
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(12.7200 mm, 15.5000 mm): Track [/VBUS_5V] on F.Cu, length 5.6500 mm
+      @(13.1375 mm, 19.2500 mm): Pad 5 [/GND] of U2 on F.Cu
+
+  [solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(13.8000 mm, 23.2500 mm): Track [/VBUS_5V] on B.Cu, length 2.7375 mm
+      @(13.2000 mm, 22.8000 mm): Pad 1 [/GND] of TP_GND on B.Cu
+
+  [solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(13.8000 mm, 21.1500 mm): Track [/VBUS_5V] on B.Cu, length 2.1000 mm
+      @(13.2000 mm, 22.8000 mm): Pad 1 [/GND] of TP_GND on B.Cu
+
+==================================================
+CLUSTER: ('3V3', 'MIC_WS') (Count: 6)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /3V3 and /MIC_WS)
+      Local override; error
+      @(2.4000 mm, 27.0000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(0.5000 mm, 27.1360 mm): Track [/MIC_WS] on B.Cu, length 5.0000 mm
+
+  [shorting_items]: Items shorting two nets (nets /3V3 and /MIC_WS)
+      Local override; error
+      @(2.2800 mm, 13.0000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(2.8000 mm, 13.2000 mm): Track [/MIC_WS] on B.Cu, length 2.3000 mm
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1338 mm)
+      Local override; error
+      @(2.2800 mm, 13.8000 mm): Pad 1 [/3V3] of C1 on F.Cu
+      @(2.8000 mm, 13.2000 mm): Via [/MIC_WS] on F.Cu - B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /3V3 and /MIC_WS)
+      Local override; error
+      @(2.2800 mm, 13.0000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(2.8000 mm, 13.2000 mm): Via [/MIC_WS] on F.Cu - B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /3V3 and /MIC_WS)
+      Local override; error
+      @(2.2800 mm, 13.0000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(2.8000 mm, 13.2000 mm): Via [/MIC_WS] on F.Cu - B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /3V3 and /MIC_WS)
+      Local override; error
+      @(2.2800 mm, 13.0000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(2.8000 mm, 13.2000 mm): Via [/MIC_WS] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('GND', 'SYS_PWR') (Count: 6)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /SYS_PWR and /GND)
+      Local override; error
+      @(0.6000 mm, 19.2500 mm): Track [/SYS_PWR] on F.Cu, length 2.2500 mm
+      @(0.6000 mm, 17.0000 mm): Via [/GND] on F.Cu - B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /SYS_PWR and /GND)
+      Local override; error
+      @(0.6000 mm, 17.0000 mm): Track [/SYS_PWR] on F.Cu, length 1.6800 mm
+      @(1.3200 mm, 17.0000 mm): Pad 2 [/GND] of C9 on F.Cu
+
+  [shorting_items]: Items shorting two nets (nets /GND and /SYS_PWR)
+      Local override; error
+      @(0.8000 mm, 20.2000 mm): Via [/GND] on F.Cu - B.Cu
+      @(0.6000 mm, 21.1500 mm): Track [/SYS_PWR] on F.Cu, length 1.9000 mm
+
+  [shorting_items]: Items shorting two nets (nets /GND and /SYS_PWR)
+      Local override; error
+      @(1.8625 mm, 20.2000 mm): Track [/GND] on F.Cu, length 1.0625 mm
+      @(0.6000 mm, 21.1500 mm): Track [/SYS_PWR] on F.Cu, length 1.9000 mm
+
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(1.3200 mm, 17.0000 mm): Track [/GND] on F.Cu, length 0.7200 mm
+      @(0.6000 mm, 19.2500 mm): Track [/SYS_PWR] on F.Cu, length 2.2500 mm
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(0.6000 mm, 17.0000 mm): Track [/SYS_PWR] on F.Cu, length 1.6800 mm
+      @(1.3200 mm, 17.0000 mm): Pad 2 [/GND] of C9 on F.Cu
+
+==================================================
+CLUSTER: ('GATE_OD', 'VBUS_5V') (Count: 6)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /VBUS_5V and /GATE_OD)
+      Local override; error
+      @(11.0625 mm, 23.2500 mm): Track [/VBUS_5V] on F.Cu, length 2.5125 mm
+      @(8.6375 mm, 23.2500 mm): Pad 6 [/GATE_OD] of Q1 on F.Cu
+
+  [shorting_items]: Items shorting two nets (nets /VBUS_5V and /GATE_OD)
+      Local override; error
+      @(8.5500 mm, 23.2500 mm): Track [/VBUS_5V] on F.Cu, length 2.0500 mm
+      @(8.6375 mm, 23.2500 mm): Pad 6 [/GATE_OD] of Q1 on F.Cu
+
+  [shorting_items]: Items shorting two nets (nets /VBUS_5V and /GATE_OD)
+      Local override; error
+      @(8.5500 mm, 23.2500 mm): Track [/VBUS_5V] on F.Cu, length 2.0500 mm
+      @(8.6370 mm, 22.8000 mm): Via [/GATE_OD] on F.Cu - B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /VBUS_5V and /GATE_OD)
+      Local override; error
+      @(8.5500 mm, 23.2500 mm): Track [/VBUS_5V] on F.Cu, length 2.0500 mm
+      @(8.6370 mm, 22.8000 mm): Track [/GATE_OD] on F.Cu, length 0.4500 mm
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(8.5500 mm, 23.2500 mm): Track [/VBUS_5V] on F.Cu, length 2.0500 mm
+      @(8.6375 mm, 23.2500 mm): Pad 6 [/GATE_OD] of Q1 on F.Cu
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(11.0625 mm, 23.2500 mm): Track [/VBUS_5V] on F.Cu, length 2.5125 mm
+      @(8.6375 mm, 23.2500 mm): Pad 6 [/GATE_OD] of Q1 on F.Cu
+
+==================================================
+CLUSTER: ('GND', 'VR_PA') (Count: 6)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1571 mm)
+      Local override; error
+      @(3.3200 mm, 5.2000 mm): Track [/GND] on F.Cu, length 0.7200 mm
+      @(2.0800 mm, 5.0000 mm): Via [/VR_PA] on F.Cu - B.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1200 mm)
+      Local override; error
+      @(2.6000 mm, 6.8000 mm): Via [/GND] on F.Cu - B.Cu
+      @(2.0800 mm, 8.6000 mm): Track [/VR_PA] on B.Cu, length 3.6000 mm
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1200 mm)
+      Local override; error
+      @(2.6000 mm, 5.2000 mm): Via [/GND] on F.Cu - B.Cu
+      @(2.0800 mm, 5.0000 mm): Track [/VR_PA] on F.Cu, length 1.0000 mm
+
+  [shorting_items]: Items shorting two nets (nets /GND and /VR_PA)
+      Local override; error
+      @(2.6000 mm, 5.2000 mm): Via [/GND] on F.Cu - B.Cu
+      @(2.0800 mm, 5.0000 mm): Via [/VR_PA] on F.Cu - B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /GND and /VR_PA)
+      Local override; error
+      @(2.6000 mm, 5.2000 mm): Via [/GND] on F.Cu - B.Cu
+      @(2.0800 mm, 5.0000 mm): Via [/VR_PA] on F.Cu - B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /GND and /VR_PA)
+      Local override; error
+      @(2.6000 mm, 5.2000 mm): Via [/GND] on F.Cu - B.Cu
+      @(2.0800 mm, 5.0000 mm): Via [/VR_PA] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('3V3',) (Count: 5)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1855 mm)
+      Local override; error
+      @(4.8000 mm, 17.2000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(5.2500 mm, 16.4375 mm): Pad 38 [<no net>] of U1 on F.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0237 mm)
+      Local override; error
+      @(6.7500 mm, 16.4375 mm): Track [/3V3] on F.Cu, length 0.8854 mm
+      @(6.2500 mm, 16.4375 mm): Pad 40 [<no net>] of U1 on F.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+      Local override; error
+      @(6.3000 mm, 17.2000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(6.2500 mm, 16.4375 mm): Pad 40 [<no net>] of U1 on F.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      Local override; error
+      @(11.8000 mm, 11.2000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(10.9375 mm, 11.2500 mm): Pad 10 [<no net>] of U1 on F.Cu
+
+  [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1750 mm)
+      Rule: board setup constraints hole; error
+      @(6.2500 mm, 16.4375 mm): Pad 40 [<no net>] of U1 on F.Cu
+      @(6.3000 mm, 17.2000 mm): Via [/3V3] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('SWCLK',) (Count: 5)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)
+      Local override; error
+      @(7.7500 mm, 16.4375 mm): Pad 43 [<no net>] of U1 on F.Cu
+      @(7.5000 mm, 16.4380 mm): Track [/SWCLK] on F.Cu, length 0.5620 mm
+
+  [shorting_items]: Items shorting two nets (nets  and /SWCLK)
+      Local override; error
+      @(7.7500 mm, 16.4375 mm): Pad 43 [<no net>] of U1 on F.Cu
+      @(7.5000 mm, 17.0000 mm): Via [/SWCLK] on F.Cu - B.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)
+      Local override; error
+      @(7.7500 mm, 16.4375 mm): Pad 43 [<no net>] of U1 on F.Cu
+      @(7.2500 mm, 16.4375 mm): Track [/SWCLK] on F.Cu, length 0.2500 mm
+
+  [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0527 mm)
+      Rule: board setup constraints hole; error
+      @(7.7500 mm, 16.4375 mm): Pad 43 [<no net>] of U1 on F.Cu
+      @(7.5000 mm, 17.0000 mm): Via [/SWCLK] on F.Cu - B.Cu
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(7.5000 mm, 17.0000 mm): Via [/SWCLK] on F.Cu - B.Cu
+      @(7.7500 mm, 16.4375 mm): Pad 43 [<no net>] of U1 on F.Cu
+
+==================================================
+CLUSTER: ('GATE_OC', 'GND') (Count: 5)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /GND and /GATE_OC)
+      Local override; error
+      @(1.8625 mm, 24.2000 mm): Pad 2 [/GND] of U4 on F.Cu
+      @(1.8630 mm, 24.2000 mm): Via [/GATE_OC] on F.Cu - B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /GND and /GATE_OC)
+      Local override; error
+      @(1.8625 mm, 24.2000 mm): Pad 2 [/GND] of U4 on F.Cu
+      @(1.8625 mm, 25.1500 mm): Track [/GATE_OC] on F.Cu, length 0.9500 mm
+
+  [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
+      Rule: board setup constraints hole; error
+      @(1.8625 mm, 24.2000 mm): Pad 2 [/GND] of U4 on F.Cu
+      @(1.8630 mm, 24.2000 mm): Via [/GATE_OC] on F.Cu - B.Cu
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(1.8625 mm, 25.1500 mm): Track [/GATE_OC] on F.Cu, length 0.9500 mm
+      @(1.8625 mm, 24.2000 mm): Pad 2 [/GND] of U4 on F.Cu
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(1.8630 mm, 24.2000 mm): Via [/GATE_OC] on F.Cu - B.Cu
+      @(1.8625 mm, 24.2000 mm): Pad 2 [/GND] of U4 on F.Cu
+
+==================================================
+CLUSTER: ('3V3', 'VLXSMPS') (Count: 4)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /VLXSMPS and /3V3)
+      Local override; error
+      @(9.7500 mm, 17.2000 mm): Track [/VLXSMPS] on F.Cu, length 0.9500 mm
+      @(9.2500 mm, 17.0000 mm): Track [/3V3] on F.Cu, length 0.5625 mm
+
+  [shorting_items]: Items shorting two nets (nets /VLXSMPS and /3V3)
+      Local override; error
+      @(9.7500 mm, 17.2000 mm): Track [/VLXSMPS] on F.Cu, length 0.9500 mm
+      @(8.2500 mm, 17.0000 mm): Track [/3V3] on F.Cu, length 1.0000 mm
+
+  [shorting_items]: Items shorting two nets (nets /VLXSMPS and /3V3)
+      Local override; error
+      @(9.7500 mm, 17.2000 mm): Track [/VLXSMPS] on F.Cu, length 0.9500 mm
+      @(8.7500 mm, 16.4375 mm): Track [/3V3] on F.Cu, length 0.5625 mm
+
+  [shorting_items]: Items shorting two nets (nets /VLXSMPS and /3V3)
+      Local override; error
+      @(9.7500 mm, 17.2000 mm): Track [/VLXSMPS] on F.Cu, length 0.9500 mm
+      @(8.7500 mm, 17.0000 mm): Via [/3V3] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('GND', 'LED_R_DRV') (Count: 4)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /GND and /LED_R_DRV)
+      Local override; error
+      @(7.5000 mm, 13.0000 mm): Pad 49 [/GND] of U1 on F.Cu
+      @(10.4000 mm, 10.2500 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+      Local override; error
+      @(10.9375 mm, 10.2500 mm): Track [/LED_R_DRV] on F.Cu, length 0.5375 mm
+      @(7.5000 mm, 13.0000 mm): Pad 49 [/GND] of U1 on F.Cu
+
+  [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
+      Rule: board setup constraints hole; error
+      @(7.5000 mm, 13.0000 mm): Pad 49 [/GND] of U1 on F.Cu
+      @(10.4000 mm, 10.2500 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(10.4000 mm, 10.2500 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+      @(7.5000 mm, 13.0000 mm): Pad 49 [/GND] of U1 on F.Cu
+
+==================================================
+CLUSTER: ('CHG_STAT', 'VBAT_PROT') (Count: 4)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /VBAT_PROT and /CHG_STAT)
+      Local override; error
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+      @(10.8625 mm, 19.2500 mm): Pad 1 [/CHG_STAT] of U2 on F.Cu
+
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(11.4000 mm, 19.2500 mm): Track [/CHG_STAT] on F.Cu, length 0.5375 mm
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1122 mm)
+      Local override; error
+      @(11.4000 mm, 19.2500 mm): Via [/CHG_STAT] on F.Cu - B.Cu
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+      @(10.8625 mm, 19.2500 mm): Pad 1 [/CHG_STAT] of U2 on F.Cu
+
+==================================================
+CLUSTER: ('BATT_NEG', 'GATE_OC') (Count: 4)
+==================================================
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(5.0000 mm, 23.2500 mm): Track [/BATT_NEG] on B.Cu, length 2.1500 mm
+      @(1.8630 mm, 24.2000 mm): Track [/GATE_OC] on B.Cu, length 6.1370 mm
+
+  [shorting_items]: Items shorting two nets (nets /BATT_NEG and /GATE_OC)
+      Local override; error
+      @(2.0000 mm, 25.4000 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+      @(1.8625 mm, 25.1500 mm): Track [/GATE_OC] on F.Cu, length 0.9500 mm
+
+  [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
+      Rule: board setup constraints hole; error
+      @(1.8625 mm, 25.1500 mm): Pad 3 [/GATE_OC] of U4 on F.Cu
+      @(2.0000 mm, 25.4000 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(2.0000 mm, 25.4000 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+      @(1.8625 mm, 25.1500 mm): Pad 3 [/GATE_OC] of U4 on F.Cu
+
+==================================================
+CLUSTER: ('GND', 'VBAT_PROT') (Count: 3)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /GND and /VBAT_PROT)
+      Local override; error
+      @(10.8625 mm, 20.2000 mm): Track [/GND] on F.Cu, length 1.0625 mm
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(10.8630 mm, 17.8000 mm): Track [/VBAT_PROT] on F.Cu, length 3.3500 mm
+      @(10.8625 mm, 20.2000 mm): Pad 2 [/GND] of U2 on F.Cu
+
+  [solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(12.9380 mm, 22.0000 mm): Track [/VBAT_PROT] on B.Cu, length 2.2000 mm
+      @(13.2000 mm, 22.8000 mm): Pad 1 [/GND] of TP_GND on B.Cu
+
+==================================================
+CLUSTER: ('GND', 'MIC_SD') (Count: 3)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /GND and /MIC_SD)
+      Local override; error
+      @(0.8000 mm, 24.2000 mm): Via [/GND] on F.Cu - B.Cu
+      @(0.9000 mm, 14.8000 mm): Track [/MIC_SD] on B.Cu, length 11.7000 mm
+
+  [shorting_items]: Items shorting two nets (nets /GND and /MIC_SD)
+      Local override; error
+      @(0.6000 mm, 17.0000 mm): Via [/GND] on F.Cu - B.Cu
+      @(0.9000 mm, 14.8000 mm): Track [/MIC_SD] on B.Cu, length 11.7000 mm
+
+  [shorting_items]: Items shorting two nets (nets /GND and /MIC_SD)
+      Local override; error
+      @(0.8000 mm, 20.2000 mm): Via [/GND] on F.Cu - B.Cu
+      @(0.9000 mm, 14.8000 mm): Track [/MIC_SD] on B.Cu, length 11.7000 mm
+
+==================================================
+CLUSTER: ('BATT_NEG', 'GND') (Count: 3)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0727 mm)
+      Local override; error
+      @(5.0000 mm, 23.2500 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+      @(5.5000 mm, 22.8000 mm): Via [/GND] on F.Cu - B.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0727 mm)
+      Local override; error
+      @(5.0000 mm, 23.2500 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+      @(5.5000 mm, 22.8000 mm): Via [/GND] on F.Cu - B.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0727 mm)
+      Local override; error
+      @(5.0000 mm, 23.2500 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+      @(5.5000 mm, 22.8000 mm): Via [/GND] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('NRST', 'TP_RF') (Count: 3)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+      Local override; error
+      @(8.0000 mm, 5.2000 mm): Track [/TP_RF] on B.Cu, length 1.8000 mm
+      @(9.8000 mm, 4.5000 mm): Pad 1 [/NRST] of TP_NRST on B.Cu
+
+  [shorting_items]: Items shorting two nets (nets /TP_RF and /NRST)
+      Local override; error
+      @(9.8000 mm, 7.2000 mm): Via [/TP_RF] on F.Cu - B.Cu
+      @(9.8000 mm, 7.9800 mm): Track [/NRST] on F.Cu, length 3.4800 mm
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+      Local override; error
+      @(9.8000 mm, 5.2000 mm): Track [/TP_RF] on B.Cu, length 2.0000 mm
+      @(9.8000 mm, 4.5000 mm): Pad 1 [/NRST] of TP_NRST on B.Cu
+
+==================================================
+CLUSTER: ('GND', 'OSC_OUT') (Count: 3)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /OSC_OUT and /GND)
+      Local override; error
+      @(2.8000 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 2.6000 mm
+      @(2.3000 mm, 9.7500 mm): Pad 2 [/GND] of Y1 on F.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      Local override; error
+      @(2.8000 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 2.6000 mm
+      @(2.3000 mm, 10.4000 mm): Via [/GND] on F.Cu - B.Cu
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(2.8000 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 2.6000 mm
+      @(2.3000 mm, 9.7500 mm): Pad 2 [/GND] of Y1 on F.Cu
+
+==================================================
+CLUSTER: ('3V3', 'OSC_IN') (Count: 3)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0801 mm)
+      Local override; error
+      @(3.2000 mm, 10.1000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(3.4000 mm, 10.7500 mm): Via [/OSC_IN] on F.Cu - B.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0801 mm)
+      Local override; error
+      @(3.2000 mm, 10.1000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(3.4000 mm, 10.7500 mm): Via [/OSC_IN] on F.Cu - B.Cu
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0801 mm)
+      Local override; error
+      @(3.2000 mm, 10.1000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(3.4000 mm, 10.7500 mm): Via [/OSC_IN] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('GND', 'VLXSMPS') (Count: 2)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1860 mm)
+      Local override; error
+      @(9.7500 mm, 16.4375 mm): Track [/VLXSMPS] on F.Cu, length 0.7625 mm
+      @(10.2500 mm, 16.4375 mm): Track [/GND] on F.Cu, length 2.7219 mm
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(10.2500 mm, 16.4375 mm): Track [/GND] on F.Cu, length 2.7219 mm
+      @(9.7500 mm, 16.4375 mm): Pad 47 [/VLXSMPS] of U1 on F.Cu
+
+==================================================
+CLUSTER: ('BOOT0', 'GND') (Count: 2)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /BOOT0 and /GND)
+      Local override; error
+      @(6.6000 mm, 8.0100 mm): Track [/BOOT0] on F.Cu, length 2.0100 mm
+      @(6.4000 mm, 6.8000 mm): Via [/GND] on F.Cu - B.Cu
+
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(6.6000 mm, 8.0100 mm): Track [/BOOT0] on F.Cu, length 2.0100 mm
+      @(7.2500 mm, 6.9900 mm): Track [/GND] on F.Cu, length 0.8710 mm
+
+==================================================
+CLUSTER: ('LED_R', 'LED_R_DRV') (Count: 2)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0400 mm)
+      Local override; error
+      @(10.4000 mm, 27.5000 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+      @(11.0100 mm, 27.5000 mm): Pad 2 [/LED_R] of R6 on F.Cu
+
+  [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1900 mm)
+      Rule: board setup constraints hole; error
+      @(11.0100 mm, 27.5000 mm): Pad 2 [/LED_R] of R6 on F.Cu
+      @(10.4000 mm, 27.5000 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('RFO_HP', 'RF_50OHM') (Count: 2)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0900 mm)
+      Local override; error
+      @(5.2500 mm, 6.3150 mm): Pad 2 [/RF_50OHM] of L1 on F.Cu
+      @(5.2500 mm, 7.2850 mm): Track [/RFO_HP] on F.Cu, length 0.4850 mm
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0900 mm)
+      Local override; error
+      @(5.2500 mm, 6.8000 mm): Track [/RFO_HP] on F.Cu, length 0.9700 mm
+      @(5.2500 mm, 6.3150 mm): Pad 2 [/RF_50OHM] of L1 on F.Cu
+
+==================================================
+CLUSTER: ('MIC_SCK', 'NRST') (Count: 2)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0155 mm)
+      Local override; error
+      @(8.2500 mm, 8.8000 mm): Via [/MIC_SCK] on F.Cu - B.Cu
+      @(8.5000 mm, 8.5000 mm): Track [/NRST] on F.Cu, length 0.5200 mm
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+      Local override; error
+      @(8.2500 mm, 9.5625 mm): Track [/MIC_SCK] on F.Cu, length 0.7625 mm
+      @(7.7500 mm, 8.5000 mm): Track [/NRST] on F.Cu, length 0.7500 mm
+
+==================================================
+CLUSTER: ('LED_B_DRV',) (Count: 2)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+      Local override; error
+      @(9.7500 mm, 9.5625 mm): Pad 14 [<no net>] of U1 on F.Cu
+      @(9.8000 mm, 8.8000 mm): Via [/LED_B_DRV] on F.Cu - B.Cu
+
+  [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1750 mm)
+      Rule: board setup constraints hole; error
+      @(9.7500 mm, 9.5625 mm): Pad 14 [<no net>] of U1 on F.Cu
+      @(9.8000 mm, 8.8000 mm): Via [/LED_B_DRV] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('GATE_OD', 'SYS_PWR') (Count: 2)
+==================================================
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(1.8630 mm, 22.8000 mm): Track [/GATE_OD] on B.Cu, length 6.7740 mm
+      @(6.4500 mm, 21.2000 mm): Track [/SYS_PWR] on B.Cu, length 3.9500 mm
+
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+      Local override; error
+      @(1.8630 mm, 22.8000 mm): Via [/GATE_OD] on F.Cu - B.Cu
+      @(6.4500 mm, 22.2000 mm): Track [/SYS_PWR] on F.Cu, length 4.5870 mm
+
+==================================================
+CLUSTER: ('BATT_NEG', 'BATT_POS') (Count: 2)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /BATT_NEG and /BATT_POS)
+      Local override; error
+      @(5.0000 mm, 23.2500 mm): Track [/BATT_NEG] on B.Cu, length 2.1500 mm
+      @(4.8000 mm, 24.2000 mm): Via [/BATT_POS] on F.Cu - B.Cu
+
+  [solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(5.0000 mm, 23.2500 mm): Track [/BATT_NEG] on B.Cu, length 2.1500 mm
+      @(4.8000 mm, 24.2000 mm): Pad 1 [/BATT_POS] of TP_BATT_P on B.Cu
+
+==================================================
+CLUSTER: ('LED_B_DRV', 'LED_R_DRV') (Count: 2)
+==================================================
+  [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1120 mm)
+      Rule: board setup constraints hole; error
+      @(10.2500 mm, 9.5625 mm): Pad 13 [/LED_B_DRV] of U1 on F.Cu
+      @(10.4000 mm, 10.2500 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+
+  [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(10.4000 mm, 10.2500 mm): Via [/LED_R_DRV] on F.Cu - B.Cu
+      @(10.2500 mm, 9.5625 mm): Pad 13 [/LED_B_DRV] of U1 on F.Cu
+
+==================================================
+CLUSTER: ('3V3', 'OSC_OUT') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      Local override; error
+      @(3.2000 mm, 11.7500 mm): Via [/3V3] on F.Cu - B.Cu
+      @(4.0625 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 1.2625 mm
+
+==================================================
+CLUSTER: ('3V3', 'VDDRF1V55') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1900 mm)
+      Local override; error
+      @(2.2800 mm, 13.0000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(2.2800 mm, 12.2000 mm): Pad 1 [/VDDRF1V55] of C7 on F.Cu
+
+==================================================
+CLUSTER: ('3V3', 'MIC_SCK') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0750 mm)
+      Local override; error
+      @(8.7500 mm, 17.0000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(9.2000 mm, 8.8000 mm): Track [/MIC_SCK] on B.Cu, length 18.2000 mm
+
+==================================================
+CLUSTER: ('GND', 'MIC_SCK') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+      Local override; error
+      @(8.8000 mm, 19.8000 mm): Via [/GND] on F.Cu - B.Cu
+      @(9.2000 mm, 8.8000 mm): Track [/MIC_SCK] on B.Cu, length 18.2000 mm
+
+==================================================
+CLUSTER: ('GATE_OD', 'GND') (Count: 1)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /GATE_OD and /GND)
+      Local override; error
+      @(1.8630 mm, 22.8000 mm): Track [/GATE_OD] on B.Cu, length 6.7740 mm
+      @(5.5000 mm, 22.8000 mm): Via [/GND] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('GND', 'LED_B_DRV') (Count: 1)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /GND and /LED_B_DRV)
+      Local override; error
+      @(9.8000 mm, 20.2000 mm): Via [/GND] on F.Cu - B.Cu
+      @(9.8000 mm, 8.8000 mm): Track [/LED_B_DRV] on B.Cu, length 20.4000 mm
+
+==================================================
+CLUSTER: ('GND', 'MIC_WS') (Count: 1)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /MIC_WS and /GND)
+      Local override; error
+      @(0.5000 mm, 13.2000 mm): Track [/MIC_WS] on B.Cu, length 13.9360 mm
+      @(0.6000 mm, 13.8000 mm): Via [/GND] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('RFO_HP', 'VR_PA') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0550 mm)
+      Local override; error
+      @(5.2500 mm, 9.5625 mm): Track [/RFO_HP] on F.Cu, length 2.2775 mm
+      @(4.7500 mm, 8.6000 mm): Via [/VR_PA] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('VBAT_PROT', 'VBUS_5V') (Count: 1)
+==================================================
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(13.8000 mm, 23.2500 mm): Track [/VBUS_5V] on B.Cu, length 2.7375 mm
+      @(12.9380 mm, 22.0000 mm): Track [/VBAT_PROT] on B.Cu, length 2.2000 mm
+
+==================================================
+CLUSTER: ('LED_R_DRV', 'VBAT_PROT') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0880 mm)
+      Local override; error
+      @(10.8630 mm, 22.0000 mm): Via [/VBAT_PROT] on F.Cu - B.Cu
+      @(10.4000 mm, 10.2500 mm): Track [/LED_R_DRV] on B.Cu, length 17.2500 mm
+
+==================================================
+CLUSTER: ('OSC_IN', 'OSC_OUT') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+      Local override; error
+      @(3.4000 mm, 10.7500 mm): Via [/OSC_IN] on F.Cu - B.Cu
+      @(4.0625 mm, 11.2500 mm): Track [/OSC_OUT] on F.Cu, length 1.2625 mm
+
+==================================================
+CLUSTER: ('MIC_SCK', 'SYS_PWR') (Count: 1)
+==================================================
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(6.4500 mm, 25.1500 mm): Track [/SYS_PWR] on B.Cu, length 4.6125 mm
+      @(9.2000 mm, 8.8000 mm): Track [/MIC_SCK] on B.Cu, length 18.2000 mm
+
+==================================================
+CLUSTER: ('LED_R_DRV', 'SYS_PWR') (Count: 1)
+==================================================
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(10.4000 mm, 10.2500 mm): Track [/LED_R_DRV] on B.Cu, length 17.2500 mm
+      @(6.4500 mm, 25.1500 mm): Track [/SYS_PWR] on B.Cu, length 4.6125 mm
+
+==================================================
+CLUSTER: ('LED_B_DRV', 'SYS_PWR') (Count: 1)
+==================================================
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(6.4500 mm, 25.1500 mm): Track [/SYS_PWR] on B.Cu, length 4.6125 mm
+      @(9.8000 mm, 8.8000 mm): Track [/LED_B_DRV] on B.Cu, length 20.4000 mm
+
+==================================================
+CLUSTER: ('GND', 'OSC_IN') (Count: 1)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /OSC_IN and /GND)
+      Local override; error
+      @(3.4000 mm, 10.7500 mm): Track [/OSC_IN] on B.Cu, length 2.5000 mm
+      @(2.3000 mm, 10.4000 mm): Via [/GND] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('GATE_OD', 'MIC_SCK') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1880 mm)
+      Local override; error
+      @(8.6370 mm, 22.8000 mm): Via [/GATE_OD] on F.Cu - B.Cu
+      @(9.2000 mm, 8.8000 mm): Track [/MIC_SCK] on B.Cu, length 18.2000 mm
+
+==================================================
+CLUSTER: ('GATE_OC', 'SYS_PWR') (Count: 1)
+==================================================
+  [tracks_crossing]: Tracks crossing
+      Local override; error
+      @(1.8630 mm, 24.2000 mm): Track [/GATE_OC] on B.Cu, length 6.1370 mm
+      @(6.4500 mm, 21.2000 mm): Track [/SYS_PWR] on B.Cu, length 3.9500 mm
+
+==================================================
+CLUSTER: ('CHG_STAT',) (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0837 mm)
+      Local override; error
+      @(11.4000 mm, 12.7500 mm): Via [/CHG_STAT] on F.Cu - B.Cu
+      @(10.9375 mm, 13.2500 mm): Pad 6 [<no net>] of U1 on F.Cu
+
+==================================================
+CLUSTER: ('BATT_NEG', 'SYS_PWR') (Count: 1)
+==================================================
+  [shorting_items]: Items shorting two nets (nets /BATT_NEG and /SYS_PWR)
+      Local override; error
+      @(5.0000 mm, 25.4000 mm): Track [/BATT_NEG] on B.Cu, length 3.6370 mm
+      @(6.4500 mm, 25.1500 mm): Track [/SYS_PWR] on B.Cu, length 4.6125 mm
+
+==================================================
+CLUSTER: ('BATT_NEG', 'GATE_OD') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0750 mm)
+      Local override; error
+      @(1.8630 mm, 22.8000 mm): Track [/GATE_OD] on B.Cu, length 6.7740 mm
+      @(5.0000 mm, 23.2500 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('3V3', 'GND') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1671 mm)
+      Local override; error
+      @(3.2000 mm, 10.1000 mm): Via [/3V3] on F.Cu - B.Cu
+      @(2.3000 mm, 9.7500 mm): Pad 2 [/GND] of Y1 on F.Cu
+
+==================================================
+CLUSTER: ('BATT_NEG', 'MIC_SCK') (Count: 1)
+==================================================
+  [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1880 mm)
+      Local override; error
+      @(9.2000 mm, 8.8000 mm): Track [/MIC_SCK] on B.Cu, length 18.2000 mm
+      @(8.6370 mm, 25.4000 mm): Via [/BATT_NEG] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('BATT_POS', 'GATE_OC') (Count: 1)
+==================================================
+  [solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+      Rule: board setup solder mask min width; error
+      @(1.8630 mm, 24.2000 mm): Track [/GATE_OC] on B.Cu, length 6.1370 mm
+      @(4.8000 mm, 24.2000 mm): Pad 1 [/BATT_POS] of TP_BATT_P on B.Cu
+
+==================================================
+CLUSTER: ('BOOT0',) (Count: 1)
+==================================================
+  [via_dangling]: Via is not connected or connected on only one layer
+      Local override; warning
+      @(7.2500 mm, 4.0000 mm): Via [/BOOT0] on F.Cu - B.Cu
+
+==================================================
+CLUSTER: ('VBUS_5V',) (Count: 1)
+==================================================
+  [via_dangling]: Via is not connected or connected on only one layer
+      Local override; warning
+      @(13.5000 mm, 4.2000 mm): Via [/VBUS_5V] on F.Cu - B.Cu
+  
+  ** Found 0 unconnected pads **
+  
+  ** Found 0 Footprint errors **
+  
+  ** Ignored checks **
+      - Footprint has no courtyard defined
+      - Track endpoint not centered on via
+      - Tuning profile track geometries
+      - Footprint doesn't match symbol's footprint filters
+      - Footprint component type doesn't match footprint pads
+  
+  ** End of Report **
+
