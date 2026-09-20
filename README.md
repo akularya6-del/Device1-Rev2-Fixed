@@ -1,6 +1,6 @@
 # DEVICE 1 — COMPACT WIRELESS AUDIO TERMINAL
 ## Turnkey Hardware & Firmware Manufacturing Release Package
-**Project Status:** 100% Repaired, Formally Verified, Simulated & Ready for SMT Production (Fabrication Candidate)  
+**Project Status:** Digitally Validated Fabrication Candidate (Pre-Production Prototype)  
 **Design Rules:** JLCPCB 4-Layer Standard (JLC04161H-7628 stackup, 0.200mm clearance)  
 **Strict Mandate:** Open Architecture — Strictly Zero Texas Instruments Components  
 **Blocker Status:** B1–B8 Blocker Repairs Completed and Fully Synchronized  
@@ -8,20 +8,20 @@
 ---
 
 ## 1. System Overview
-**Device 1** is an ultra-compact personal wireless audio transmitter engineered for discrete, high-fidelity speech streaming over a long-range Sub-GHz link (400–500 meters line-of-sight).
+**Device 1** is an ultra-compact personal wireless audio transmitter engineered for discrete, high-fidelity speech streaming over a long-range Sub-GHz link (target ~400–500 meters line-of-sight).
 
 ### Key Technical Specifications
 | Parameter | Value / Implementation |
 | :--- | :--- |
 | **PCB Dimensions** | **31.0 mm × 15.0 mm × 1.6 mm** (Sub-compact wearable format) |
-| **Main Processor & RF** | STMicroelectronics `STM32WL55CCU6` (Dual-core ARM Cortex-M4 @ 48MHz + Sub-GHz Coprocessor) |
+| **Main Processor & RF** | STMicroelectronics `STM32WL55CCU6TR` (Dual-core ARM Cortex-M4 @ 48MHz + Sub-GHz Coprocessor) |
 | **Acoustic Sensor** | Knowles `SPH0645LM4H-B` Digital I2S Bottom-Port MEMS Microphone (SNR 65 dBA, 0.5mm NPTH port) |
 | **Audio Format** | 16.0 kHz sampling rate, 16-bit linear PCM, single channel (mono) |
 | **Speech Compression** | Standard IMA ADPCM (4:1 lossy compression, 256 kbps PCM compressed to **64 kbps**, 4-bit nibbles) |
-| **RF Carrier & Modulation**| **868.000 MHz**, 2-GFSK (BT=0.5 Gaussian filter), **150 kbps** data rate, ±50 kHz frequency deviation |
+| **RF Carrier & Modulation**| **868.000 MHz**, 2-GFSK (BT=0.5 Gaussian filter), **150 kbps** authoritative PHY rate, ±37.5 kHz deviation ($h=0.5$) |
 | **RF Transmit Power** | **+14.0 dBm** (25 mW EIRP, compliant with ETSI EN 300 220 European Sub-GHz regulations) |
-| **Antenna** | Johanson Technology `0868AT43A0020E` Ceramic Chip Antenna (50 Ω CPWG matched feed, custom footprint) |
-| **Estimated Range** | **400 to 500 meters Line-of-Sight (LOS)**, 50 to 100 meters indoor |
+| **Antenna** | Johanson Technology `0868AT43A0020E` Ceramic Chip Antenna ($7.00 \times 2.00 \times 0.80\,\text{mm}$, custom footprint) |
+| **Target Range** | **~400 to 500 meters Line-of-Sight (LOS)** target; physical field validation required |
 | **Return Link (RX)** | Short 500 µs listening window after each 8 ms audio burst to receive Base Station return commands ('A', 'B', 'C', 'D') |
 | **User Interface** | Single 0603 Bi-Color Red/Blue LED: streaming pulse, error/battery alert, and 1–4 flash count for commands |
 | **Power Management** | AP2112K-3.3 600mA Low-Dropout Regulator + MCP73831 Li-Ion Charger + DMG2305UX P-FET Load Sharing |
@@ -34,18 +34,15 @@
 
 ```
 Device1/
-├── DEVICE1_FINAL_BOM.csv               # Complete Bill of Materials (40 SMT parts)
-├── DEVICE1_FINAL_CPL.csv               # Pick-and-Place coordinates for JLCPCB
-├── BLOCKER_EXECUTION_LOG.md            # Detailed B1-B8 blocker repair verification log
-├── REPAIR_CHANGELOG.md                 # Complete audit & repair changelog
-├── RF_REFERENCE_COMPARISON.md          # ST AN5457 vs Device1 Rev 2.0 RF front-end comparison
+├── DEVICE1_FINAL_BOM.csv               # Complete Bill of Materials (39 populated SMT parts)
+├── DEVICE1_FINAL_CPL.csv               # Pick-and-Place coordinates for JLCPCB (39 parts)
+├── RF_REFERENCE_COMPARISON_FINAL.md    # ST AN5457 / Semtech AN1200.40 switchless front-end comparison
+├── VALIDATION_REPORT_FINAL.md          # Authoritative digital validation & verification report
+├── AUDIO_RF_BUDGET_FINAL.md            # Airtime & timing margin budget (38.04% margin)
 ├── Device1-drc.rpt                     # KiCad DRC report (0 errors, 0 warnings)
 ├── Device1-erc.rpt                     # KiCad ERC report (0 errors, 0 warnings)
-├── ENGINEERING_CORRECTIONS.md          # Architectural corrections log
-├── POST_BUILD_TEST_PLAN.md             # Step-by-step bringup & RF tuning guide
-├── VALIDATION_REPORT.md                # Comprehensive validation certificate
 ├── README.md                           # This master documentation
-├── Device1_COMPLETE_HANDOFF_FIXED.zip  # Turnkey verified manufacturing handoff archive
+├── Device1_COMPLETE_HANDOFF_FINAL.zip  # Turnkey verified manufacturing handoff archive
 │
 ├── hardware/                           # KiCad 10 CAD Package
 │   ├── Device1.kicad_pro               # KiCad project file
@@ -73,11 +70,11 @@ Device1/
 ├── manufacturing/                      # Factory-Ready Manufacturing Files
 │   ├── JLCPCB_UPLOAD/
 │   │   ├── Device1_Gerbers.zip         # Upload-ready Gerber + Drill package
-│   │   ├── Device1_BOM.csv             # JLCPCB SMT BOM format
-│   │   └── Device1_CPL.csv             # JLCPCB SMT Pick-and-Place format (40 SMT parts)
+│   │   ├── Device1_BOM.csv             # JLCPCB SMT BOM format (39 parts)
+│   │   └── Device1_CPL.csv             # JLCPCB SMT Pick-and-Place format (39 populated SMT parts)
 │   ├── gerbers/                        # Uncompressed Gerber files (11 layers)
 │   ├── drill/                          # Excellon NC drill files
-│   └── Device1_COMPLETE_HANDOFF_FIXED.zip # Full turnkey handoff archive
+│   └── Device1_COMPLETE_HANDOFF_FINAL.zip # Full turnkey handoff archive
 │
 └── docs/
     └── AUDIO_RF_BUDGET_FINAL.md        # Comprehensive airtime & RF link budget

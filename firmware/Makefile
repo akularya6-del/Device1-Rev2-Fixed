@@ -23,7 +23,7 @@ INCS    = -Iinclude -Icodec -Iaudio -Iradio -Ipower -Iui
 
 MCU     = -target armv7em-none-eabi -mcpu=cortex-m4 -mthumb -mfloat-abi=soft
 CFLAGS  = $(MCU) $(INCS) -Os -Wall -Wextra -std=c11 -ffunction-sections -fdata-sections
-LDFLAGS = -T stm32wl55ccu6.ld -Map=$(TARGET).map --gc-sections --no-warn-rwx-segments
+LDFLAGS = -T stm32wl55ccu6.ld -Map=$(TARGET).map --gc-sections
 
 OBJS    = $(SRCS:.c=.o)
 

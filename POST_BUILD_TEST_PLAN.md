@@ -98,10 +98,10 @@
    - Continuous 868MHz Audio Streaming:
      - I2S DMA active: ~3.5 mA
      - MCU Core (48 MHz): ~6.5 mA
-     - RF Transmit (+14 dBm, 100 kbps, 6.4 ms / 8.0 ms burst): ~32 mA peak, **~25.6 mA average**
-     - Total Average Operating Current: **~35.6 mA**
+     - RF Transmit (+14 dBm, 150 kbps, 4.3 ms / 8.0 ms burst): ~32 mA peak, **~17.2 mA average**
+     - Total Average Operating Current: **~27.2 mA**
    - Battery Runtime on 120 mAh 1S LiPo:
-     $$T = \frac{120 \text{ mAh}}{35.6 \text{ mA}} \approx 3.37 \text{ hours continuous streaming}$$
+     $$T = \frac{120 \text{ mAh}}{27.2 \text{ mA}} \approx 4.4 \text{ hours continuous streaming}$$
    - Sleep / Idle Mode: < 15 uA.
 2. **Overdischarge Cutoff:**
    - Lower bench supply voltage below 3.20 V: Verify Red LED low-battery indicator flashes.

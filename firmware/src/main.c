@@ -5,7 +5,7 @@
  * Hardware:
  * - MCU: STM32WL55CCU6 (Dual-Core ARM Cortex-M4 @ 48MHz)
  * - Microphone: Knowles SPH0645LM4H-B (I2S, 16kHz, 16-bit)
- * - Radio: Sub-GHz transceiver (868MHz, 2-GFSK, 100kbps, +14dBm)
+ * - Radio: Sub-GHz transceiver (868MHz, 2-GFSK, 150kbps, +14dBm)
  * - Power: 1S LiPo + AP2112K-3.3 LDO + MCP73831 Charger
  * - UI: Bi-Color Red/Blue LED
  */

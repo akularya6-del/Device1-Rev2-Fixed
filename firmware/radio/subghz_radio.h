@@ -1,7 +1,7 @@
 /**
  * @file subghz_radio.h
- * @brief Sub-GHz 868MHz 2-GFSK Radio Driver for STM32WL55
- * Operates at 868.0 MHz, 100 kbps, 2-GFSK, +14 dBm output power.
+ * @brief Sub-GHz Radio Transceiver Driver for Device 1
+ * Operates at 868.0 MHz, 150 kbps, 2-GFSK, +14 dBm output power.
  */
 
 #ifndef SUBGHZ_RADIO_H
@@ -40,7 +40,7 @@ typedef struct {
 
 /**
  * @brief Initialize the Sub-GHz radio peripheral
- * Configures 868 MHz carrier, 100 kbps GFSK, +14 dBm PA, sync word and CRC.
+ * Configures 868 MHz carrier, 150 kbps GFSK, +14 dBm PA, sync word and CRC.
  */
 bool subghz_radio_init(void);
 

@@ -177,7 +177,7 @@ bool subghz_radio_init(void)
      * SyncWordLength = 16 bits (0x10)
      * AddrComp = 0x00 (None)
      * PacketType = 0x00 (Variable length)
-     * PayloadLength = sizeof(radio_audio_packet_t) = 71 bytes
+     * PayloadLength = sizeof(radio_audio_packet_t) = 72 bytes
      * CRCType = 0x02 (2 Bytes CCITT)
      * Whitening = 0x01 (Enabled)
      */

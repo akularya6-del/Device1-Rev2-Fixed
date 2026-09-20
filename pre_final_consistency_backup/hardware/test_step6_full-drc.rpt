@@ -1,0 +1,54 @@
+** Drc report for test_step6_full.kicad_pcb **
+** Created on 2026-09-20T16:32:59 **
+** Report includes: Errors, Warnings **
+
+** Found 2 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(6.4500 mm, 26.0000 mm): Track [/SYS_PWR] on B.Cu, length 4.6120 mm
+    @(8.6370 mm, 26.8000 mm): Track [/BATT_NEG] on B.Cu, length 1.6500 mm
+[shorting_items]: Items shorting two nets (nets /3V3 and /BATT_NEG)
+    Local override; error
+    @(8.4000 mm, 26.6000 mm): Via [/3V3] on F.Cu - B.Cu
+    @(8.6370 mm, 26.8000 mm): Track [/BATT_NEG] on B.Cu, length 1.6500 mm
+
+** Found 7 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0100 mm, 27.5000 mm): Pad 2 [/LED_R] of R6 on F.Cu
+    @(12.4000 mm, 28.1500 mm): Pad 1 [/LED_R] of D2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0100 mm, 29.2000 mm): Pad 2 [/LED_B] of R7 on F.Cu
+    @(12.4000 mm, 28.8500 mm): Pad 2 [/LED_B] of D2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9.9900 mm, 27.5000 mm): Pad 1 [/LED_R_DRV] of R6 on F.Cu
+    @(10.9375 mm, 10.2500 mm): Pad 12 [/LED_R_DRV] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9.9900 mm, 29.2000 mm): Pad 1 [/LED_B_DRV] of R7 on F.Cu
+    @(10.2500 mm, 9.5625 mm): Pad 13 [/LED_B_DRV] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.2500 mm, 9.5625 mm): Pad 17 [/MIC_SCK] of U1 on F.Cu
+    @(8.4000 mm, 27.9580 mm): Pad 4 [/MIC_SCK] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 13.7500 mm): Pad 32 [/MIC_WS] of U1 on F.Cu
+    @(6.6000 mm, 27.1360 mm): Pad 1 [/MIC_WS] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 14.2500 mm): Pad 33 [/MIC_SD] of U1 on F.Cu
+    @(7.5000 mm, 27.1360 mm): Pad 6 [/MIC_SD] of MK1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

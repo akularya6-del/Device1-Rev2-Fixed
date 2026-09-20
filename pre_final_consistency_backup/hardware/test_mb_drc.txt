@@ -1,0 +1,86 @@
+** Drc report for test_master_base.kicad_pcb **
+** Created on 2026-09-20T16:58:08 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 4 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1799 mm)
+    Local override; error
+    @(5.5000 mm, 23.2500 mm): Via [/GND] on F.Cu - B.Cu
+    @(4.1380 mm, 23.2500 mm): Track [/BATT_NEG] on In2.Cu, length 4.8837 mm
+[shorting_items]: Items shorting two nets (nets /GATE_OC and Net-(Q1-D12-Pad2))
+    Local override; error
+    @(1.8630 mm, 25.4000 mm): Track [/GATE_OC] on F.Cu, length 5.6370 mm
+    @(6.3625 mm, 25.1500 mm): Pad 3 [Net-(Q1-D12-Pad2)] of Q1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(1.8630 mm, 25.4000 mm): Track [/GATE_OC] on F.Cu, length 5.6370 mm
+    @(4.1375 mm, 25.1500 mm): Pad 4 [<no net>] of U4 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(1.8630 mm, 25.4000 mm): Track [/GATE_OC] on F.Cu, length 5.6370 mm
+    @(6.3625 mm, 25.1500 mm): Pad 3 [Net-(Q1-D12-Pad2)] of Q1 on F.Cu
+
+** Found 13 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 13.7500 mm): Pad 32 [/MIC_WS] of U1 on F.Cu
+    @(6.6000 mm, 27.1360 mm): Pad 1 [/MIC_WS] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.2500 mm, 9.5625 mm): Pad 17 [/MIC_SCK] of U1 on F.Cu
+    @(8.4000 mm, 27.9580 mm): Pad 4 [/MIC_SCK] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.0625 mm, 14.2500 mm): Pad 33 [/MIC_SD] of U1 on F.Cu
+    @(7.5000 mm, 27.1360 mm): Pad 6 [/MIC_SD] of MK1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9.9900 mm, 29.2000 mm): Pad 1 [/LED_B_DRV] of R7 on F.Cu
+    @(10.2500 mm, 9.5625 mm): Pad 13 [/LED_B_DRV] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0100 mm, 29.2000 mm): Pad 2 [/LED_B] of R7 on F.Cu
+    @(12.4000 mm, 28.8500 mm): Pad 2 [/LED_B] of D2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.5500 mm, 21.2000 mm): Pad 2 [/VBUS_5V] of D1 on F.Cu
+    @(11.0625 mm, 23.2500 mm): Pad 1 [/VBUS_5V] of Q2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0625 mm, 23.2500 mm): Pad 1 [/VBUS_5V] of Q2 on F.Cu
+    @(13.1375 mm, 21.1500 mm): Pad 4 [/VBUS_5V] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.7200 mm, 13.5000 mm): Pad 1 [/VBUS_5V] of C18 on F.Cu
+    @(13.5000 mm, 4.2000 mm): Pad 1 [/VBUS_5V] of TP_VBUS on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.7200 mm, 15.5000 mm): Pad 1 [/VBUS_5V] of C10 on F.Cu
+    @(12.7200 mm, 13.5000 mm): Pad 1 [/VBUS_5V] of C18 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(13.1375 mm, 21.1500 mm): Pad 4 [/VBUS_5V] of U2 on F.Cu
+    @(12.7200 mm, 15.5000 mm): Pad 1 [/VBUS_5V] of C10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0100 mm, 27.5000 mm): Pad 2 [/LED_R] of R6 on F.Cu
+    @(12.4000 mm, 28.1500 mm): Pad 1 [/LED_R] of D2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.8625 mm, 19.2500 mm): Pad 1 [/CHG_STAT] of U2 on F.Cu
+    @(10.9375 mm, 12.7500 mm): Pad 7 [/CHG_STAT] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9.9900 mm, 27.5000 mm): Pad 1 [/LED_R_DRV] of R6 on F.Cu
+    @(10.9375 mm, 10.2500 mm): Pad 12 [/LED_R_DRV] of U1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

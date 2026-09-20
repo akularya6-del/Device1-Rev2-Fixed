@@ -9,7 +9,7 @@
 #include <math.h>
 #include "adpcm.h"
 
-#define SAMPLE_RATE 8000
+#define SAMPLE_RATE 16000
 #define TEST_DURATION_SEC 1
 #define NUM_SAMPLES (SAMPLE_RATE * TEST_DURATION_SEC)
 
@@ -188,8 +188,8 @@ int main(int argc, char **argv) {
     fprintf(out, "DEVICE 1 — IMA ADPCM HOST CODEC VERIFICATION SUITE\n");
     fprintf(out, "=====================================================\n");
     fprintf(out, "Sampling Rate: %d Hz\n", SAMPLE_RATE);
-    fprintf(out, "Input Format: 16-bit signed linear PCM mono (128 kbps)\n");
-    fprintf(out, "Output Format: 4-bit IMA ADPCM packed nibbles (32 kbps)\n");
+    fprintf(out, "Input Format: 16-bit signed linear PCM mono (256 kbps)\n");
+    fprintf(out, "Output Format: 4-bit IMA ADPCM packed nibbles (64 kbps)\n");
     fprintf(out, "Theoretical Compression Ratio: 4.00 : 1\n");
     fprintf(out, "Test Duration: %d seconds (%d samples)\n\n", TEST_DURATION_SEC, NUM_SAMPLES);
 
@@ -202,7 +202,7 @@ int main(int argc, char **argv) {
 
     fprintf(out, "\n-----------------------------------------------------\n");
     fprintf(out, "SUMMARY: %d / 5 TESTS PASSED\n", 5 - fails);
-    fprintf(out, "Compression Ratio Verified: Exactly 4:1 (16000 bytes raw -> 4000 bytes compressed)\n");
+    fprintf(out, "Compression Ratio Verified: Exactly 4:1 (32000 bytes raw -> 8000 bytes compressed)\n");
     fprintf(out, "Deterministic Bit-Exact Verification: PASSED\n");
     fprintf(out, "Buffer Overflow / Underflow Verification: PASSED\n");
     fprintf(out, "=====================================================\n");

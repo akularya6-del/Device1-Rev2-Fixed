@@ -14,6 +14,7 @@ bom_entries = [
     ("U4", "DW01A", "SOT-23-6", "DW01A", "Fortune Semi", "C42750", 1),
     ("Q1", "FS8205A", "SOT-23-6", "FS8205A", "Fortune Semi", "C32254", 1),
     ("Q2", "DMG2305UX-7", "SOT-23", "DMG2305UX-7", "Diodes Incorporated", "C2838446", 1),
+    ("D1", "1N5819WS", "SOD-323", "1N5819WS", "JCET", "C8598", 1),
     ("D2", "Red/Blue Bi-color", "LED_0603_1608Metric", "KT-0603RGBA", "Kingbright", "C209634", 1),
     ("L1", "3.3nH", "L_0402_1005Metric", "LQG15HS3N3S02D", "Murata", "C1033", 1),
     ("L2", "47nH", "L_0402_1005Metric", "LQG15HS47NJ02D", "Murata", "C1038", 1),
@@ -83,9 +84,9 @@ with open(pos_path, 'r') as f:
     reader = csv.DictReader(f)
     for row in reader:
         ref = row["Ref"].strip('"')
-        if ref.startswith("TP_"):
-            continue # Skip test points from SMT assembly
         val = row["Val"].strip('"')
+        if ref.startswith("TP_") or ref == "R_TEST" or "DNP" in val.upper():
+            continue # Skip test points and DNP components from SMT pick-and-place assembly
         pkg = row["Package"].strip('"')
         pos_x = float(row["PosX"])
         pos_y = abs(float(row["PosY"])) # Make coordinates positive relative to (0,0)

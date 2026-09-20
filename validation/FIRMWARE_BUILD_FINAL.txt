@@ -1,0 +1,16 @@
+clang -target armv7em-none-eabi -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Iinclude -Icodec -Iaudio -Iradio -Ipower -Iui -Os -Wall -Wextra -std=c11 -ffunction-sections -fdata-sections -c src/startup.c -o src/startup.o
+clang -target armv7em-none-eabi -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Iinclude -Icodec -Iaudio -Iradio -Ipower -Iui -Os -Wall -Wextra -std=c11 -ffunction-sections -fdata-sections -c src/main.c -o src/main.o
+clang -target armv7em-none-eabi -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Iinclude -Icodec -Iaudio -Iradio -Ipower -Iui -Os -Wall -Wextra -std=c11 -ffunction-sections -fdata-sections -c codec/adpcm.c -o codec/adpcm.o
+clang -target armv7em-none-eabi -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Iinclude -Icodec -Iaudio -Iradio -Ipower -Iui -Os -Wall -Wextra -std=c11 -ffunction-sections -fdata-sections -c audio/audio_i2s.c -o audio/audio_i2s.o
+clang -target armv7em-none-eabi -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Iinclude -Icodec -Iaudio -Iradio -Ipower -Iui -Os -Wall -Wextra -std=c11 -ffunction-sections -fdata-sections -c radio/subghz_radio.c -o radio/subghz_radio.o
+clang -target armv7em-none-eabi -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Iinclude -Icodec -Iaudio -Iradio -Ipower -Iui -Os -Wall -Wextra -std=c11 -ffunction-sections -fdata-sections -c power/power_mgr.c -o power/power_mgr.o
+clang -target armv7em-none-eabi -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Iinclude -Icodec -Iaudio -Iradio -Ipower -Iui -Os -Wall -Wextra -std=c11 -ffunction-sections -fdata-sections -c ui/led_ui.c -o ui/led_ui.o
+arm-none-eabi-ld -T stm32wl55ccu6.ld -Map=Device1_Firmware.map --gc-sections src/startup.o src/main.o codec/adpcm.o audio/audio_i2s.o radio/subghz_radio.o power/power_mgr.o ui/led_ui.o -o Device1_Firmware.elf
+arm-none-eabi-objcopy -O binary Device1_Firmware.elf Device1_Firmware.bin
+arm-none-eabi-objcopy -O ihex Device1_Firmware.elf Device1_Firmware.hex
+==================================================
+DEVICE 1 FIRMWARE MEMORY UTILIZATION SUMMARY
+==================================================
+arm-none-eabi-size -B Device1_Firmware.elf
+   text	   data	    bss	    dec	    hex	filename
+   3424	    324	    684	   4432	   1150	Device1_Firmware.elf

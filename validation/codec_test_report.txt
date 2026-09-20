@@ -1,21 +1,21 @@
 =====================================================
 DEVICE 1 — IMA ADPCM HOST CODEC VERIFICATION SUITE
 =====================================================
-Sampling Rate: 8000 Hz
-Input Format: 16-bit signed linear PCM mono (128 kbps)
-Output Format: 4-bit IMA ADPCM packed nibbles (32 kbps)
+Sampling Rate: 16000 Hz
+Input Format: 16-bit signed linear PCM mono (256 kbps)
+Output Format: 4-bit IMA ADPCM packed nibbles (64 kbps)
 Theoretical Compression Ratio: 4.00 : 1
-Test Duration: 1 seconds (8000 samples)
+Test Duration: 1 seconds (16000 samples)
 
 PASS: Silence test (8000 samples -> 4000 bytes -> 8000 samples, exact zero output)
-PASS: 440 Hz Sine wave test (SNR = 26.92 dB, target > 20 dB)
-PASS: Speech-like mixed formants test (SNR = 21.61 dB, target > 18 dB)
+PASS: 440 Hz Sine wave test (SNR = 32.53 dB, target > 20 dB)
+PASS: Speech-like mixed formants test (SNR = 27.43 dB, target > 18 dB)
 PASS: Low amplitude noise test (Stable, bounded tracking without runaway)
 PASS: Extreme clipping test (Full scale square wave clamped correctly without overflow)
 
 -----------------------------------------------------
 SUMMARY: 5 / 5 TESTS PASSED
-Compression Ratio Verified: Exactly 4:1 (16000 bytes raw -> 4000 bytes compressed)
+Compression Ratio Verified: Exactly 4:1 (32000 bytes raw -> 8000 bytes compressed)
 Deterministic Bit-Exact Verification: PASSED
 Buffer Overflow / Underflow Verification: PASSED
 =====================================================

@@ -1,0 +1,411 @@
+
+Merging object attributes
+
+
+Discarded input sections
+
+ .text          0x00000000        0x0 src/startup.o
+ .ARM.exidx.text.Default_Handler
+                0x00000000        0x8 src/startup.o
+ .ARM.exidx.text.Reset_Handler
+                0x00000000        0x8 src/startup.o
+ .text.__aeabi_memcpy
+                0x00000000       0x12 src/startup.o
+ .ARM.exidx.text.__aeabi_memcpy
+                0x00000000        0x8 src/startup.o
+ .ARM.exidx.text.__aeabi_memcpy4
+                0x00000000        0x8 src/startup.o
+ .ARM.exidx.text.__aeabi_memclr
+                0x00000000        0x8 src/startup.o
+ .ARM.exidx.text.__aeabi_memclr4
+                0x00000000        0x8 src/startup.o
+ .text.__aeabi_memset
+                0x00000000        0xe src/startup.o
+ .ARM.exidx.text.__aeabi_memset
+                0x00000000        0x8 src/startup.o
+ .llvm_addrsig  0x00000000       0x4e src/startup.o
+ .text          0x00000000        0x0 src/main.o
+ .ARM.exidx.text.main
+                0x00000000        0x8 src/main.o
+ .llvm_addrsig  0x00000000        0x3 src/main.o
+ .text          0x00000000        0x0 codec/adpcm.o
+ .ARM.exidx.text.adpcm_reset
+                0x00000000        0x8 codec/adpcm.o
+ .ARM.exidx.text.adpcm_encode
+                0x00000000        0x8 codec/adpcm.o
+ .text.adpcm_decode
+                0x00000000      0x102 codec/adpcm.o
+ .ARM.exidx.text.adpcm_decode
+                0x00000000        0x8 codec/adpcm.o
+ .llvm_addrsig  0x00000000        0x0 codec/adpcm.o
+ .text          0x00000000        0x0 audio/audio_i2s.o
+ .ARM.exidx.text.audio_i2s_init
+                0x00000000        0x8 audio/audio_i2s.o
+ .ARM.exidx.text.audio_i2s_start
+                0x00000000        0x8 audio/audio_i2s.o
+ .ARM.exidx.text.audio_i2s_stop
+                0x00000000        0x8 audio/audio_i2s.o
+ .ARM.exidx.text.audio_i2s_get_frame
+                0x00000000        0x8 audio/audio_i2s.o
+ .text.audio_i2s_dma_half_transfer_callback
+                0x00000000        0xe audio/audio_i2s.o
+ .ARM.exidx.text.audio_i2s_dma_half_transfer_callback
+                0x00000000        0x8 audio/audio_i2s.o
+ .text.audio_i2s_dma_transfer_callback
+                0x00000000        0xe audio/audio_i2s.o
+ .ARM.exidx.text.audio_i2s_dma_transfer_callback
+                0x00000000        0x8 audio/audio_i2s.o
+ .ARM.exidx.text.DMA1_Channel1_IRQHandler
+                0x00000000        0x8 audio/audio_i2s.o
+ .llvm_addrsig  0x00000000        0x3 audio/audio_i2s.o
+ .text          0x00000000        0x0 radio/subghz_radio.o
+ .ARM.exidx.text.subghz_radio_init
+                0x00000000        0x8 radio/subghz_radio.o
+ .ARM.exidx.text.subghz_write_cmd
+                0x00000000        0x8 radio/subghz_radio.o
+ .ARM.exidx.text.subghz_radio_send_frame
+                0x00000000        0x8 radio/subghz_radio.o
+ .ARM.exidx.text.subghz_radio_receive_ack
+                0x00000000        0x8 radio/subghz_radio.o
+ .ARM.exidx.text.subghz_radio_sleep
+                0x00000000        0x8 radio/subghz_radio.o
+ .llvm_addrsig  0x00000000        0x0 radio/subghz_radio.o
+ .text          0x00000000        0x0 power/power_mgr.o
+ .ARM.exidx.text.power_mgr_init
+                0x00000000        0x8 power/power_mgr.o
+ .ARM.exidx.text.power_mgr_update
+                0x00000000        0x8 power/power_mgr.o
+ .ARM.exidx.text.power_mgr_sleep
+                0x00000000        0x8 power/power_mgr.o
+ .llvm_addrsig  0x00000000        0x0 power/power_mgr.o
+ .text          0x00000000        0x0 ui/led_ui.o
+ .ARM.exidx.text.led_ui_init
+                0x00000000        0x8 ui/led_ui.o
+ .ARM.exidx.text.led_ui_set_red
+                0x00000000        0x8 ui/led_ui.o
+ .text.led_ui_set_blue
+                0x00000000       0x14 ui/led_ui.o
+ .ARM.exidx.text.led_ui_set_blue
+                0x00000000        0x8 ui/led_ui.o
+ .ARM.exidx.text.led_ui_indicate_cmd
+                0x00000000        0x8 ui/led_ui.o
+ .ARM.exidx.text.led_ui_tick
+                0x00000000        0x8 ui/led_ui.o
+ .llvm_addrsig  0x00000000        0x0 ui/led_ui.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00040000         xr
+RAM              0x20000000         0x00010000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20010000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000      0x138
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x138 src/startup.o
+                0x08000000                g_pfnVectors
+                0x08000138                        . = ALIGN (0x4)
+
+.text           0x08000138      0xd60
+                0x08000138                        . = ALIGN (0x4)
+ *(.text)
+ *(.text*)
+ .text.Default_Handler
+                0x08000138        0x2 src/startup.o
+                0x08000138                DMA2_Channel3_IRQHandler
+                0x08000138                EXTI2_IRQHandler
+                0x08000138                DebugMon_Handler
+                0x08000138                TIM1_CC_IRQHandler
+                0x08000138                HardFault_Handler
+                0x08000138                SysTick_Handler
+                0x08000138                PendSV_Handler
+                0x08000138                NMI_Handler
+                0x08000138                EXTI3_IRQHandler
+                0x08000138                LPTIM2_IRQHandler
+                0x08000138                I2C3_ER_IRQHandler
+                0x08000138                LPTIM3_IRQHandler
+                0x08000138                EXTI0_IRQHandler
+                0x08000138                I2C2_EV_IRQHandler
+                0x08000138                UsageFault_Handler
+                0x08000138                TAMP_STAMP_LSECSS_SSRU_IRQHandler
+                0x08000138                SPI1_IRQHandler
+                0x08000138                DMA2_Channel2_IRQHandler
+                0x08000138                DMA1_Channel4_IRQHandler
+                0x08000138                PKA_IRQHandler
+                0x08000138                TIM17_IRQHandler
+                0x08000138                DMA1_Channel7_IRQHandler
+                0x08000138                SUBGHZSPI_IRQHandler
+                0x08000138                IPCC_C1_TX_IRQHandler
+                0x08000138                DMA2_Channel1_IRQHandler
+                0x08000138                I2C1_EV_IRQHandler
+                0x08000138                SUBGHZ_Radio_IRQHandler
+                0x08000138                DMAMUX1_OVR_IRQHandler
+                0x08000138                DMA1_Channel6_IRQHandler
+                0x08000138                TIM16_IRQHandler
+                0x08000138                DMA2_Channel4_IRQHandler
+                0x08000138                RCC_IRQHandler
+                0x08000138                TIM1_TRG_COM_IRQHandler
+                0x08000138                Default_Handler
+                0x08000138                DMA2_Channel7_IRQHandler
+                0x08000138                EXTI15_10_IRQHandler
+                0x08000138                IPCC_C1_RX_IRQHandler
+                0x08000138                ADC_IRQHandler
+                0x08000138                C2SEV_PWR_C2H_IRQHandler
+                0x08000138                I2C3_EV_IRQHandler
+                0x08000138                EXTI9_5_IRQHandler
+                0x08000138                RTC_WKUP_IRQHandler
+                0x08000138                PVD_PVM_IRQHandler
+                0x08000138                SPI2_IRQHandler
+                0x08000138                MemManage_Handler
+                0x08000138                SVC_Handler
+                0x08000138                DMA2_Channel5_IRQHandler
+                0x08000138                DMA1_Channel5_IRQHandler
+                0x08000138                EXTI4_IRQHandler
+                0x08000138                RNG_IRQHandler
+                0x08000138                DMA1_Channel3_IRQHandler
+                0x08000138                COMP_IRQHandler
+                0x08000138                HSEM_IRQHandler
+                0x08000138                TIM1_UP_IRQHandler
+                0x08000138                WWDG_IRQHandler
+                0x08000138                LPUART1_IRQHandler
+                0x08000138                DMA2_Channel6_IRQHandler
+                0x08000138                TIM2_IRQHandler
+                0x08000138                TIM1_BRK_IRQHandler
+                0x08000138                DAC_IRQHandler
+                0x08000138                EXTI1_IRQHandler
+                0x08000138                AES_IRQHandler
+                0x08000138                USART2_IRQHandler
+                0x08000138                I2C2_ER_IRQHandler
+                0x08000138                DMA1_Channel2_IRQHandler
+                0x08000138                FLASH_IRQHandler
+                0x08000138                BusFault_Handler
+                0x08000138                USART1_IRQHandler
+                0x08000138                I2C1_ER_IRQHandler
+                0x08000138                LPTIM1_IRQHandler
+                0x08000138                RTC_Alarm_IRQHandler
+ *fill*         0x0800013a        0x2 
+ .text.Reset_Handler
+                0x0800013c       0x56 src/startup.o
+                0x0800013c                Reset_Handler
+ *fill*         0x08000192        0x2 
+ .text.__aeabi_memcpy4
+                0x08000194       0x12 src/startup.o
+                0x08000194                __aeabi_memcpy4
+ .text.__aeabi_memclr
+                0x080001a6        0xc src/startup.o
+                0x080001a6                __aeabi_memclr
+ .text.__aeabi_memclr4
+                0x080001b2        0xc src/startup.o
+                0x080001b2                __aeabi_memclr4
+ *fill*         0x080001be        0x2 
+ .text.main     0x080001c0      0x182 src/main.o
+                0x080001c0                main
+ .text.adpcm_reset
+                0x08000342        0xa codec/adpcm.o
+                0x08000342                adpcm_reset
+ .text.adpcm_encode
+                0x0800034c      0x18c codec/adpcm.o
+                0x0800034c                adpcm_encode
+ .text.audio_i2s_init
+                0x080004d8      0x128 audio/audio_i2s.o
+                0x080004d8                audio_i2s_init
+ .text.audio_i2s_start
+                0x08000600       0x38 audio/audio_i2s.o
+                0x08000600                audio_i2s_start
+ .text.audio_i2s_stop
+                0x08000638       0x2c audio/audio_i2s.o
+                0x08000638                audio_i2s_stop
+ .text.audio_i2s_get_frame
+                0x08000664       0x30 audio/audio_i2s.o
+                0x08000664                audio_i2s_get_frame
+ .text.DMA1_Channel1_IRQHandler
+                0x08000694       0x32 audio/audio_i2s.o
+                0x08000694                DMA1_Channel1_IRQHandler
+ *fill*         0x080006c6        0x2 
+ .text.subghz_radio_init
+                0x080006c8      0x110 radio/subghz_radio.o
+                0x080006c8                subghz_radio_init
+ .text.subghz_write_cmd
+                0x080007d8       0x8a radio/subghz_radio.o
+ *fill*         0x08000862        0x2 
+ .text.subghz_radio_send_frame
+                0x08000864      0x100 radio/subghz_radio.o
+                0x08000864                subghz_radio_send_frame
+ .text.subghz_radio_receive_ack
+                0x08000964      0x1ac radio/subghz_radio.o
+                0x08000964                subghz_radio_receive_ack
+ .text.subghz_radio_sleep
+                0x08000b10       0x1a radio/subghz_radio.o
+                0x08000b10                subghz_radio_sleep
+ *fill*         0x08000b2a        0x2 
+ .text.power_mgr_init
+                0x08000b2c       0x9c power/power_mgr.o
+                0x08000b2c                power_mgr_init
+ .text.power_mgr_update
+                0x08000bc8       0xb6 power/power_mgr.o
+                0x08000bc8                power_mgr_update
+ .text.power_mgr_sleep
+                0x08000c7e        0x4 power/power_mgr.o
+                0x08000c7e                power_mgr_sleep
+ .text.led_ui_init
+                0x08000c82       0x76 ui/led_ui.o
+                0x08000c82                led_ui_init
+ .text.led_ui_set_red
+                0x08000cf8       0x14 ui/led_ui.o
+                0x08000cf8                led_ui_set_red
+ .text.led_ui_indicate_cmd
+                0x08000d0c       0x48 ui/led_ui.o
+                0x08000d0c                led_ui_indicate_cmd
+ .text.led_ui_tick
+                0x08000d54       0x70 ui/led_ui.o
+                0x08000d54                led_ui_tick
+ *(.rodata)
+ *(.rodata*)
+ .rodata.stepsizeTable
+                0x08000dc4       0xb2 codec/adpcm.o
+ .rodata.cst16  0x08000e76       0x10 codec/adpcm.o
+ .rodata..L__const.subghz_radio_init.pkt_params
+                0x08000e86        0x9 radio/subghz_radio.o
+ .rodata.str1.1
+                0x08000e8f        0x5 radio/subghz_radio.o
+ .rodata..L__const.subghz_radio_send_frame.tx_timeout
+                0x08000e94        0x3 radio/subghz_radio.o
+                0x08000e98                        . = ALIGN (0x4)
+ *fill*         0x08000e97        0x1 
+                0x08000e98                        _etext = .
+                0x08000e98                        _sidata = LOADADDR (.data)
+
+.glue_7         0x08000e98        0x0
+ .glue_7        0x08000e98        0x0 linker stubs
+
+.glue_7t        0x08000e98        0x0
+ .glue_7t       0x08000e98        0x0 linker stubs
+
+.vfp11_veneer   0x08000e98        0x0
+ .vfp11_veneer  0x08000e98        0x0 linker stubs
+
+.v4_bx          0x08000e98        0x0
+ .v4_bx         0x08000e98        0x0 linker stubs
+
+.iplt           0x08000e98        0x0
+ .iplt          0x08000e98        0x0 src/startup.o
+
+.rel.dyn        0x08000e98        0x0
+ .rel.iplt      0x08000e98        0x0 src/startup.o
+
+.data           0x20000000        0xc load address 0x08000e98
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.s_current_status
+                0x20000000        0xc power/power_mgr.o
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        _edata = .
+
+.igot.plt       0x2000000c        0x0 load address 0x08000ea4
+ .igot.plt      0x2000000c        0x0 src/startup.o
+
+.bss            0x2000000c      0x2ac load address 0x08000ea4
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        _sbss = .
+ *(.bss)
+ *(.bss*)
+ .bss.s_adpcm_encoder
+                0x2000000c        0x4 src/main.o
+ .bss.s_compressed_payload
+                0x20000010       0x40 src/main.o
+ .bss.s_packet_sequence
+                0x20000050        0x1 src/main.o
+ *fill*         0x20000051        0x3 
+ .bss.s_power_status
+                0x20000054        0xc src/main.o
+ .bss.s_dma_audio_buffer
+                0x20000060      0x200 audio/audio_i2s.o
+ .bss.s_ready_buffer
+                0x20000260        0x4 audio/audio_i2s.o
+ .bss.s_is_running
+                0x20000264        0x1 audio/audio_i2s.o
+ .bss.s_radio_initialized
+                0x20000265        0x1 radio/subghz_radio.o
+ .bss.s_tx_packet
+                0x20000266       0x48 radio/subghz_radio.o
+ .bss.s_remaining_flashes
+                0x200002ae        0x1 ui/led_ui.o
+ *fill*         0x200002af        0x1 
+ .bss.s_flash_timer_ms
+                0x200002b0        0x4 ui/led_ui.o
+ .bss.s_flash_phase
+                0x200002b4        0x1 ui/led_ui.o
+ *(COMMON)
+                0x200002b8                        . = ALIGN (0x4)
+ *fill*         0x200002b5        0x3 
+                0x200002b8                        _ebss = .
+
+/DISCARD/
+ *(.ARM.exidx*)
+ *(.note.gnu.build-id*)
+LOAD src/startup.o
+LOAD src/main.o
+LOAD codec/adpcm.o
+LOAD audio/audio_i2s.o
+LOAD radio/subghz_radio.o
+LOAD power/power_mgr.o
+LOAD ui/led_ui.o
+OUTPUT(Device1_Firmware.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x00000000       0x2f
+ .comment       0x00000000       0x2f src/startup.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f        0x0 src/main.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f        0x0 codec/adpcm.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f        0x0 audio/audio_i2s.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f        0x0 radio/subghz_radio.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f        0x0 power/power_mgr.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f        0x0 ui/led_ui.o
+                                 0x30 (size before relaxing)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 src/startup.o
+ .note.GNU-stack
+                0x00000000        0x0 src/main.o
+ .note.GNU-stack
+                0x00000000        0x0 codec/adpcm.o
+ .note.GNU-stack
+                0x00000000        0x0 audio/audio_i2s.o
+ .note.GNU-stack
+                0x00000000        0x0 radio/subghz_radio.o
+ .note.GNU-stack
+                0x00000000        0x0 power/power_mgr.o
+ .note.GNU-stack
+                0x00000000        0x0 ui/led_ui.o
+
+.ARM.attributes
+                0x00000000       0x3b
+ .ARM.attributes
+                0x00000000       0x41 src/startup.o
+ .ARM.attributes
+                0x00000041       0x41 src/main.o
+ .ARM.attributes
+                0x00000082       0x41 codec/adpcm.o
+ .ARM.attributes
+                0x000000c3       0x41 audio/audio_i2s.o
+ .ARM.attributes
+                0x00000104       0x41 radio/subghz_radio.o
+ .ARM.attributes
+                0x00000145       0x41 power/power_mgr.o
+ .ARM.attributes
+                0x00000186       0x41 ui/led_ui.o
